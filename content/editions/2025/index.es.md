@@ -13,7 +13,10 @@ La séptima edición del Día Mundial de la Fotografía Estenopeica en Barcelona
 
 ## La séptima edición
 
-El domingo 27 de abril de 2025 celebramos el *Día Mundial de la Fotografía Estenopeica* en la **Sala Basiana** de Barcelona.
+**Fecha**: Domingo, 27 de abril de 2025 — 11:00 h  
+**Lugar**: Sala Basiana (dentro de Nau Bostik), Barcelona
+
+Este año celebramos la 7.ª edición en la Sala Basiana, disfrutando de un día primaveral con compañeros entusiastas del estenopo. El día incluyó:
 
 Una jornada dedicada a la fotografía sin objetivos ni estrés, donde compartimos la técnica fotográfica más antigua con todo el que quiso acercarse.
 

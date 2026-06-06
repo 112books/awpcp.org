@@ -13,7 +13,10 @@ La setena edició del Worldwide Pinhole Photography Day a Barcelona.
 
 ## La setena edició
 
-El diumenge 27 d'abril de 2025 vam celebrar el *Worldwide Pinhole Photography Day* a la **Sala Basiana** de Barcelona.
+**Data**: Diumenge, 27 d'abril de 2025 — 11:00 h  
+**Lloc**: Sala Basiana (dins la Nau Bostik), Barcelona
+
+Enguany vam celebrar la setena edició a la Sala Basiana, gaudint d'un dia primaveral amb companys entusiastes de l'estenop. El dia va incloure:
 
 Una jornada dedicada a la fotografia sense objectius ni estrès, on vam compartir la tècnica fotogràfica més antiga amb tothom qui va voler apropar-s'hi.
 

@@ -6,3 +6,7 @@ venue: "Barcelona"
 ---
 
 La cuarta edición del Día Mundial de la Fotografía Estenopeica en Barcelona.
+
+La **4.ª edición** del Día Mundial de la Fotografía Estenopeica en Barcelona.
+
+No tenemos muchos detalles de esta edición. Si participaste o tienes fotos, **[ponte en contacto](/es/contacto/)** y ayúdanos a documentarla!

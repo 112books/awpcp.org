@@ -8,3 +8,7 @@ aliases:
 ---
 
 The 4th edition of the Worldwide Pinhole Photography Day in Barcelona.
+
+The **4th edition** of the Worldwide Pinhole Photography Day in Barcelona.
+
+Details about this edition are limited. If you participated or have photos, **[get in touch](/en/contact/)** and help us document it!
