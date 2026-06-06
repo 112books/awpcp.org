@@ -40,6 +40,11 @@ enableGitInfo = false
     [languages.es.params]
       description = "Around the World's Pinhole Crazy People — Día Mundial de la Fotografía Estenopeica"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [permalinks]
   editions = "/:slug/"
   editions_cameras = "/:slug/"
