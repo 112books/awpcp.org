@@ -1,0 +1,74 @@
+[home]
+other = "Home"
+
+[about]
+other = "A.W.P.C.P."
+
+[editions]
+other = "Editions"
+
+[contact]
+other = "Contact"
+
+[legal]
+other = "Legal Notice"
+
+[privacy]
+other = "Privacy Policy"
+
+[cookies]
+other = "Cookies"
+
+[latest_edition]
+other = "Current Edition"
+
+[previous_editions]
+other = "Previous Editions"
+
+[no_plans]
+other = "NO plans, NO rules, NO stress, and above all, NO OBJECTIVE!"
+
+[participate]
+other = "Participate"
+
+[more_info]
+other = "More info"
+
+[spread_love]
+other = "Share"
+
+[footer_text]
+other = "Contact:"
+
+[powered_by]
+other = "Powered by"
+
+[edition_title]
+other = "Worldwide Pinhole Photography Day {{ .Year }}"
+
+[countdown_title]
+other = "Save the date: {{ .Date }}!"
+
+[countdown_days]
+other = "days"
+
+[countdown_hours]
+other = "hours"
+
+[countdown_mins]
+other = "minutes"
+
+[view_cameras]
+other = "View participating cameras"
+
+[all_cameras]
+other = "All cameras"
+
+[author]
+other = "Author"
+
+[camera]
+other = "Camera"
+
+[watch_video]
+other = "Watch video"

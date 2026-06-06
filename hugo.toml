@@ -1,0 +1,70 @@
+baseURL = "https://awpcp.org"
+title = "A.W.P.C.P."
+languageCode = "ca"
+DefaultContentLanguage = "ca"
+disableLanguages = []
+theme = ""
+enableGitInfo = false
+
+[params]
+  description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"
+  author = "Alfonso de Castro & Joan Linux"
+  email = "info@awpcp.org"
+  instagram = "https://www.instagram.com/awpcp.org/"
+  facebook = "https://www.facebook.com/awpcp.org/"
+  ogImage = "/img/awpcp-logo.png"
+  latestEdition = "2025"
+  goatcounter = "awpcp"
+  pinholeDayDate = "2026-04-26T11:00:00"
+
+[languages]
+  [languages.ca]
+    languageCode = "ca"
+    languageName = "Català"
+    weight = 1
+    contentDir = "content"
+    [languages.ca.params]
+      description = "Around the World's Pinhole Crazy People — Dia Mundial de la Fotografia Estenopeica"
+  [languages.en]
+    languageCode = "en"
+    languageName = "English"
+    weight = 2
+    contentDir = "content"
+    [languages.en.params]
+      description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"
+  [languages.es]
+    languageCode = "es"
+    languageName = "Español"
+    weight = 3
+    contentDir = "content"
+    [languages.es.params]
+      description = "Around the World's Pinhole Crazy People — Día Mundial de la Fotografía Estenopeica"
+
+[permalinks]
+  editions = "/:slug/"
+  editions_cameras = "/:slug/"
+
+[outputs]
+  home = ["HTML"]
+
+[mediaTypes]
+  [mediaTypes."text/netlify"]
+    suffix = ""
+
+[outputFormats]
+  [outputFormats.NETLIFY]
+    mediaType = "text/netlify"
+    baseName = "_redirects"
+    isPlainText = true
+    notAlternative = true
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
+  [minify.tdewolff]
+    html = { keepWhitespace = false }

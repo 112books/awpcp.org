@@ -1,0 +1,74 @@
+[home]
+other = "Inici"
+
+[about]
+other = "A.W.P.C.P."
+
+[editions]
+other = "Edicions"
+
+[contact]
+other = "Contacte"
+
+[legal]
+other = "Avís Legal"
+
+[privacy]
+other = "Privacitat"
+
+[cookies]
+other = "Galetes"
+
+[latest_edition]
+other = "Edició actual"
+
+[previous_editions]
+other = "Edicions anteriors"
+
+[no_plans]
+other = "SENSE plans, SENSE regles, SENSE estrès i, sobretot, SENSE OBJECTIU!"
+
+[participate]
+other = "Participa"
+
+[more_info]
+other = "Més informació"
+
+[spread_love]
+other = "Comparteix"
+
+[footer_text]
+other = "Contacta:"
+
+[powered_by]
+other = "Desenvolupat per"
+
+[edition_title]
+other = "Worldwide Pinhole Photography Day {{ .Year }}"
+
+[countdown_title]
+other = "Apunta la data: {{ .Date }}!"
+
+[countdown_days]
+other = "dies"
+
+[countdown_hours]
+other = "hores"
+
+[countdown_mins]
+other = "minuts"
+
+[view_cameras]
+other = "Veure càmeres participants"
+
+[all_cameras]
+other = "Totes les càmeres"
+
+[author]
+other = "Autor"
+
+[camera]
+other = "Càmera"
+
+[watch_video]
+other = "Veure vídeo"

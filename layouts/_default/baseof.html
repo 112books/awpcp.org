@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+  <meta name="description" content="{{ or .Description .Summary .Site.Params.description }}">
+  <link rel="icon" href="{{ "img/awpcp-favicon.png" | relURL }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="og:title" content="{{ .Title }}">
+  <meta property="og:description" content="{{ or .Description .Summary .Site.Params.description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ or .Params.ogImage .Site.Params.ogImage | absURL }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ or .Description .Summary .Site.Params.description }}">
+  <meta name="twitter:image" content="{{ or .Params.ogImage .Site.Params.ogImage | absURL }}">
+
+  {{ if .IsTranslated }}
+    {{ range .AllTranslations }}
+    <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+    {{ end }}
+    {{ range .AllTranslations }}{{ if eq .Lang "ca" }}
+    <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+    {{ end }}{{ end }}
+  {{ end }}
+
+  {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+
+  {{ if .Site.Params.goatcounter }}
+  <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a href="{{ "" | relLangURL }}" class="nav-brand">
+        <img src="{{ "img/awpcp-logo.png" | relURL }}" alt="A.W.P.C.P." class="nav-logo">
+        A.W.P.C.P.
+      </a>
+      <div class="nav-links">
+        <a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
+        <a href="{{ "about" | relLangURL }}">{{ i18n "about" }}</a>
+        <a href="{{ "editions" | relLangURL }}">{{ i18n "editions" }}</a>
+        <a href="{{ "contact" | relLangURL }}">{{ i18n "contact" }}</a>
+      </div>
+      <div class="nav-langs">
+        {{ range .AllTranslations }}
+          {{ if ne .Lang $.Lang }}
+            <a href="{{ .RelPermalink }}" class="lang-switch" hreflang="{{ .Lang }}">{{ .Language.LanguageName }}</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <p>{{ i18n "footer_text" }} <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    <p class="footer-powered">{{ i18n "powered_by" }} <a href="https://linuxbcn.com">LinuxBCN</a></p>
+  </footer>
+</body>
+</html>

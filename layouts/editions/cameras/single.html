@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="camera-detail">
+  <h1>{{ .Title }}</h1>
+  <div class="meta">
+    {{ with .Params.author }}
+    <p>{{ i18n "author" }}: {{ if $.Params.authorUrl }}<a href="{{ $.Params.authorUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}</p>
+    {{ end }}
+    {{ with .Params.camera }}<p>{{ i18n "camera" }}: {{ . }}</p>{{ end }}
+    {{ with .Params.video }}<p>📹 <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "watch_video" }}</a></p>{{ end }}
+  </div>
+
+  <div class="prose">
+    {{ .Content }}
+  </div>
+
+  {{ $images := .Params.images }}
+  {{ if $images }}
+  <div class="gallery">
+    {{ range $images }}
+    <a href="{{ . | relURL }}" target="_blank"><img src="{{ . | relURL }}" alt=""></a>
+    {{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}

@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{ $year := .File.Dir | replaceRE "editions/(\\d{4})/.*" "$1" | default .Title }}
+{{ $status := "past" }}
+{{ if eq $year (string .Site.Params.latestEdition) }}{{ $status = "active" }}{{ else if gt (int $year) (int .Site.Params.latestEdition) }}{{ $status = "future" }}{{ end }}
+
+<section class="edition-hero">
+  <div>
+    {{ if eq $status "active" }}<span class="edition-badge">✓ {{ i18n "latest_edition" }}{{ end }}</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.date }}<p class="edition-date">{{ dateFormat "Monday, January 2, 2006" . }}</p>{{ end }}
+    {{ with .Params.venue }}<p class="edition-venue">📍 {{ . | safeHTML }}</p>{{ end }}
+    {{ if .Params.noPlans }}<p style="font-style:italic;color:var(--ink-2);max-width:500px;margin:0.5rem auto 0;">{{ i18n "no_plans" }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="edition-body prose">
+  {{ .Content }}
+
+  {{ if .Params.sponsors }}
+  <div class="sponsors">
+    {{ range .Params.sponsors }}
+    <a href="{{ .url }}" target="_blank" rel="noopener"><img src="{{ .logo | relURL }}" alt="{{ .name }}"></a>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
+
+{{ $cameras := where .Pages "Section" "editions" }}
+{{ if $cameras }}
+<section class="section section-alt">
+  <div class="section-inner">
+    <h2>{{ i18n "all_cameras" }}</h2>
+    <div class="camera-gallery">
+      {{ range $cameras }}
+      <a href="{{ .RelPermalink }}" class="camera-card" style="text-decoration:none;color:var(--ink);">
+        {{ with .Params.image }}<img src="{{ . | relURL }}" alt="" class="camera-card-image">{{ end }}
+        <div class="camera-card-body">
+          <h3>{{ .Title }}</h3>
+          {{ with .Params.author }}<p class="author">{{ . }}</p>{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

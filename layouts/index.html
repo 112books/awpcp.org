@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ $latest := .Site.Params.latestEdition }}
+{{ $edition := .Site.GetPage (printf "/editions/%s" $latest) }}
+{{ if $edition }}
+  {{ with $edition }}
+<section class="hero">
+  <div>
+    <h1>{{ .Title }}</h1>
+    <p class="hero-subtitle">{{ .Description }}</p>
+    <a href="{{ .RelPermalink }}" class="btn">{{ i18n "more_info" }}</a>
+  </div>
+</section>
+  {{ end }}
+{{ end }}
+
+<section class="section section-alt">
+  <div class="section-inner">
+    <h2>{{ i18n "previous_editions" }}</h2>
+    <div class="editions-list">
+      {{ $pages := where .Site.Pages "Section" "editions" }}
+      {{ $years := slice }}
+      {{ range $pages }}
+        {{ if and (not .IsSection) (eq .Lang $.Lang) }}
+          {{ $year := .File.Dir | replaceRE "editions/(\\d{4})/.*" "$1" }}
+          {{ if not (in $years $year) }}
+            {{ $years = $years | append $year }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ range $years }}
+        {{ $yearPage := $.Site.GetPage (printf "/editions/%s" .) }}
+        {{ if $yearPage }}
+        <a href="{{ $yearPage.RelPermalink }}" class="edition-card" style="text-decoration:none;color:var(--ink);">
+          <span class="year">{{ . }}</span>
+          <span class="status {{ if eq . $latest }}active{{ else if gt (int .) 2025 }}future{{ else }}past{{ end }}">
+            {{ if eq . $latest }}{{ i18n "latest_edition" }}{{ else if gt (int .) 2025 }}{{ i18n "participate" }}{{ else }}{{ i18n "previous_editions" }}{{ end }}
+          </span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
