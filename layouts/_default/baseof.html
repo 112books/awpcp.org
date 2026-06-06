@@ -69,5 +69,28 @@
     <p>{{ i18n "footer_text" }} <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
     <p class="footer-powered">{{ i18n "powered_by" }} <a href="https://linuxbcn.com">LinuxBCN</a></p>
   </footer>
+
+  <script>
+    function startCountdown() {
+      var els = document.querySelectorAll('[data-countdown]');
+      if (!els.length) return;
+      var target = new Date(els[0].getAttribute('data-countdown')).getTime();
+      function tick() {
+        var now = new Date().getTime();
+        var diff = target - now;
+        if (diff <= 0) { els.forEach(function(el) { el.textContent = '0' }); return; }
+        var d = Math.floor(diff / 86400000);
+        var h = Math.floor((diff % 86400000) / 3600000);
+        var m = Math.floor((diff % 3600000) / 60000);
+        var s = Math.floor((diff % 60000) / 1000);
+        var cd = document.getElementById('countdown-days'); if(cd) cd.textContent = d;
+        var ch = document.getElementById('countdown-hours'); if(ch) ch.textContent = String(h).padStart(2,'0');
+        var cm = document.getElementById('countdown-minutes'); if(cm) cm.textContent = String(m).padStart(2,'0');
+        var cs = document.getElementById('countdown-seconds'); if(cs) cs.textContent = String(s).padStart(2,'0');
+      }
+      tick(); setInterval(tick, 1000);
+    }
+    document.addEventListener('DOMContentLoaded', startCountdown);
+  </script>
 </body>
 </html>

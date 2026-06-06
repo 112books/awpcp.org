@@ -49,6 +49,21 @@ other = "Worldwide Pinhole Photography Day {{ .Year }}"
 [countdown_title]
 other = "Apunta la data: {{ .Date }}!"
 
+[next_edition]
+other = "Propera edició"
+
+[days]
+other = "dies"
+
+[hours]
+other = "hores"
+
+[minutes]
+other = "minuts"
+
+[seconds]
+other = "segons"
+
 [countdown_days]
 other = "dies"
 

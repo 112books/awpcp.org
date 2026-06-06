@@ -13,6 +13,17 @@
   {{ end }}
 {{ end }}
 
+<section class="countdown-section">
+  <h2>{{ i18n "next_edition" }}</h2>
+  <p class="subtitle" data-countdown="{{ .Site.Params.pinholeDayDate }}">{{ .Site.Params.pinholeDayDate }}</p>
+  <div class="countdown">
+    <div class="countdown-item"><span class="num" id="countdown-days">0</span><span class="label">{{ i18n "days" }}</span></div>
+    <div class="countdown-item"><span class="num" id="countdown-hours">00</span><span class="label">{{ i18n "hours" }}</span></div>
+    <div class="countdown-item"><span class="num" id="countdown-minutes">00</span><span class="label">{{ i18n "minutes" }}</span></div>
+    <div class="countdown-item"><span class="num" id="countdown-seconds">00</span><span class="label">{{ i18n "seconds" }}</span></div>
+  </div>
+</section>
+
 <section class="section section-alt">
   <div class="section-inner">
     <h2>{{ i18n "previous_editions" }}</h2>
