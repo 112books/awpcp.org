@@ -12,7 +12,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/PANO612_004-1024x508.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/PANO612_012-503x1024.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/prypiat-noria-801x1024.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/ca/2020/04/26/txb-4x5-by-xavi-perich/"
 ---

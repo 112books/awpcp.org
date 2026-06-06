@@ -12,7 +12,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/6stenopo--1024x653.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/7stenopo--1024x649.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/8stenopo--1024x579.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/es/2020/04/26/lata-de-galletesa-danesas-by-nacho-aragon-2/"
 ---

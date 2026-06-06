@@ -10,7 +10,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/DOMINIQUE-LEYVA-4-1024x322.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/DOMINIQUE-LEYVA-5-1024x323.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/DOMINIQUE-LEYVA-6-1024x349.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/ca/2020/04/26/omniscope-ii-abelson-scope-works-by-dominique-leyva/"
 ---

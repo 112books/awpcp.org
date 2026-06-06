@@ -5,7 +5,7 @@
     {{ with .Params.author }}
     <p>{{ i18n "author" }}: {{ if $.Params.authorUrl }}<a href="{{ $.Params.authorUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}</p>
     {{ end }}
-    {{ with .Params.camera }}<p>{{ i18n "camera" }}: {{ . }}</p>{{ end }}
+    {{ with .Params.web }}<p>🔗 <a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>{{ end }}
     {{ with .Params.video }}<p>📹 <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "watch_video" }}</a></p>{{ end }}
   </div>
 
@@ -13,11 +13,17 @@
     {{ .Content }}
   </div>
 
-  {{ $images := .Params.images }}
-  {{ if $images }}
+  {{ $images := where .Params.images "name" "!=" nil | default .Params.images }}
+  {{ $cleanImages := slice }}
+  {{ range .Params.images }}
+    {{ if not (in . "-loader-") }}
+      {{ $cleanImages = $cleanImages | append . }}
+    {{ end }}
+  {{ end }}
+  {{ if $cleanImages }}
   <div class="gallery">
-    {{ range $images }}
-    <a href="{{ . | relURL }}" target="_blank"><img src="{{ . | relURL }}" alt=""></a>
+    {{ range $cleanImages }}
+    <a href="{{ . }}" target="_blank"><img src="{{ . }}" alt=""></a>
     {{ end }}
   </div>
   {{ end }}

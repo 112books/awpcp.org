@@ -20,21 +20,21 @@ enableGitInfo = false
 [languages]
   [languages.ca]
     languageCode = "ca"
-    languageName = "Català"
+    languageName = "CA"
     weight = 1
     contentDir = "content"
     [languages.ca.params]
       description = "Around the World's Pinhole Crazy People — Dia Mundial de la Fotografia Estenopeica"
   [languages.en]
     languageCode = "en"
-    languageName = "English"
+    languageName = "EN"
     weight = 2
     contentDir = "content"
     [languages.en.params]
       description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"
   [languages.es]
     languageCode = "es"
-    languageName = "Español"
+    languageName = "ES"
     weight = 3
     contentDir = "content"
     [languages.es.params]

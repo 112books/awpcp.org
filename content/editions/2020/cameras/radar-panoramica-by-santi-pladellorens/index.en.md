@@ -11,7 +11,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/POWER-PLANT-1024x307.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/SPIRAL-307x1024.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/TRAIN-1024x341.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/en/2020/04/30/radar-panoramica-by-santi-pladellorens-3/"
 ---

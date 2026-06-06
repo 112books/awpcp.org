@@ -16,7 +16,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/HD42-HWPC-Ilford50-006-1024x468.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/HD55-HolgaWPC-Fom100-002-1024x514.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/HD59-HolgaWPC-003-471x1024.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/en/2020/04/24/holga-120-wpc-by-joan-linux-2/"
 ---

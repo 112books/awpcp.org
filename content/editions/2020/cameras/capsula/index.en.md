@@ -14,7 +14,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/1.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/3-1024x629.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/8.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/en/2020/04/22/capsula-3/"
 ---

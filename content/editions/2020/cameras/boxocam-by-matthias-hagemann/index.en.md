@@ -7,7 +7,7 @@ images:
   - "https://awpcp.org/wp-content/uploads/2020/04/02-03-01-grenzV-03-potsdamer-1024x455.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/02-03-02-grenzV-02-platzderrepublik-1024x455.jpg"
   - "https://awpcp.org/wp-content/uploads/2020/04/02-03-03-grenzV-01-invaliden-1024x455.jpg"
-  - "https://awpcp.org/wp-content/plugins/page-views-count/ajax-loader-2x.gif"
+
 aliases:
   - "/en/2020/04/25/boxocam-by-matthias-hagemann-3/"
 ---
