@@ -55,7 +55,7 @@ img { max-width: 100%; height: auto; }
   min-height: 65vh; display: flex; align-items: center; justify-content: center;
   text-align: center; padding: 5rem 1.5rem;
   position: relative; overflow: hidden;
-  background: var(--bg-alt) url('/img/hero-bg.jpg') center/cover no-repeat;
+  background: var(--bg-alt) url('../img/hero-bg.jpg') center/cover no-repeat;
 }
 .hero::before {
   content: ''; position: absolute; inset: 0;
@@ -83,7 +83,7 @@ img { max-width: 100%; height: auto; }
 }
 
 .edition-hero {
-  background: var(--bg-alt) url('/img/hero-bg.jpg') center/cover no-repeat;
+  background: var(--bg-alt) url('../img/hero-bg.jpg') center/cover no-repeat;
   position: relative; padding: 3.5rem 1.5rem; text-align: center;
   border-bottom: 1px solid var(--border);
 }
