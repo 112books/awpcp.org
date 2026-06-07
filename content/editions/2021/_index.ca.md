@@ -13,3 +13,8 @@ La tercera edició del Worldwide Pinhole Photography Day a Barcelona va tenir ll
 **Alfonso de Castro** i **Joan Linux** van fer retrats estenopeics als participants utilitzant aquesta tècnica ancestral. L'activitat era senzilla: només calia estar quiet uns segons mentre la llum pintava el teu retrat a través d'un foradet.
 
 > A partir de les 11h al terrat del Palomar de la Nau Bostik.
+
+### Fotos
+
+<a href="https://photos.app.goo.gl/bgBNR2j3PCS15isE7" class="btn" target="_blank" rel="noopener">📷 Retrats estenopeics 2021</a>
+<a href="https://photos.app.goo.gl/Ya8r6pBHkTt9QuH8A" class="btn" target="_blank" rel="noopener">📷 Making-of 2021</a>
