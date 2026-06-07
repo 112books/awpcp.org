@@ -8,7 +8,7 @@ aliases:
 
 > 🕯️ Dediquem aquesta primera edició d'AWPCP.org al *sensey* **Eric Renner** — un gran impulsor de la fotografia estenopeica arreu del món. Visita el seu treball a [ericrennerphoto.com](http://ericrennerphoto.com) — R.I.P.
 
-A.W.P.C.P. — **Around the World's Pinhole Crazy People** — és una associació sense ànim de lucre creada l'abril de 2020 per Alfonso de Castro i Joan Linux, units per la passió per la fotografia estenopeica.
+A.W.P.C.P. — **Around the World's Pinhole Crazy People** — és una associació sense ànim de lucre creada l'abril de 2020 per Alfonso de Castro i Joan Linux, units per la passió per la fotografia estenopeica. En l'actualitat el projecte està dirigit per [Joan Linux](https://about.pocallum.cat) amb el suport de [Nau Bostik](https://naubostik.com).
 
 La nostra missió és organitzar el [Worldwide Pinhole Photography Day](https://pinholeday.org) a Barcelona cada any, i difondre la tècnica fotogràfica més antiga — la *càmera obscura* — a través de tallers, exposicions i trobades comunitàries.
 

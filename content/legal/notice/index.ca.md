@@ -9,7 +9,9 @@ aliases:
 ## Titularitat
 
 **A.W.P.C.P. (Around the World's Pinhole Crazy People)**  
-Correu electrònic: [info@awpcp.org](mailto:info@awpcp.org)
+Seu social: [Nau Bostik](https://naubostik.com), Barcelona  
+Correu electrònic: [info@awpcp.org](mailto:info@awpcp.org)  
+Direcció del projecte: [Joan Linux](https://about.pocallum.cat)
 
 ## Condicions d'ús
 
@@ -21,4 +23,4 @@ Aquest web pot contenir enllaços a llocs externs. No som responsables del conti
 
 ## Propietat intel·lectual
 
-Llevat que s'indiqui el contrari, tot el contingut d'aquest web —text, imatges i dissenys— és propietat d'A.W.P.C.P. o dels seus col·laboradors i es comparteix sota termes de Creative Commons oberts.
+El contingut editorial d'aquest web es distribueix sota llicència [Creative Commons Reconeixement 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.ca). El material fotogràfic i artístic de cada autor es regeix per la llicència que aquest n'hagi determinat.

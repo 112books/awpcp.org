@@ -9,7 +9,9 @@ aliases:
 ## Ownership
 
 **A.W.P.C.P. (Around the World's Pinhole Crazy People)**  
-Email: [info@awpcp.org](mailto:info@awpcp.org)
+Registered address: [Nau Bostik](https://naubostik.com), Barcelona  
+Email: [info@awpcp.org](mailto:info@awpcp.org)  
+Project director: [Joan Linux](https://about.pocallum.cat)
 
 ## Terms of use
 
@@ -21,4 +23,4 @@ This website may contain links to external sites. We are not responsible for the
 
 ## Intellectual property
 
-Unless otherwise stated, all content on this website — text, images, and designs — is the property of A.W.P.C.P. or its contributors and is shared under open Creative Commons terms.
+Editorial content on this website is distributed under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. Each author's photographic and artistic material is governed by the license they have determined.
