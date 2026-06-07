@@ -16,5 +16,6 @@ Fotos con cámara estenopeica de madera 4×5″ y Leica M6.
 
 <a href="https://photos.app.goo.gl/FPs6AhCpxNxQX1Pc7" class="btn" target="_blank" rel="noopener">📷 Fotos 4×5″</a>
 <a href="https://photos.app.goo.gl/bcafWoG3XfrwYqzq6" class="btn" target="_blank" rel="noopener">📷 Fotos Nau Bostik</a>
+<a href="https://photos.app.goo.gl/ufoigFL6Dk6bQxDs7" class="btn" target="_blank" rel="noopener">📷 Retratos estenopeicos 2019</a>
 
 </div>

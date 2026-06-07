@@ -16,5 +16,6 @@ Photos with a wooden 4×5″ pinhole camera and Leica M6.
 
 <a href="https://photos.app.goo.gl/FPs6AhCpxNxQX1Pc7" class="btn" target="_blank" rel="noopener">📷 4×5″ photos</a>
 <a href="https://photos.app.goo.gl/bcafWoG3XfrwYqzq6" class="btn" target="_blank" rel="noopener">📷 Nau Bostik photos</a>
+<a href="https://photos.app.goo.gl/ufoigFL6Dk6bQxDs7" class="btn" target="_blank" rel="noopener">📷 Pinhole portraits 2019</a>
 
 </div>
