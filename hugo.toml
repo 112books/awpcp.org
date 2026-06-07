@@ -1,9 +1,8 @@
 baseURL = "https://awpcp.org"
 title = "A.W.P.C.P."
-languageCode = "ca"
+locale = "ca"
 DefaultContentLanguage = "ca"
 disableLanguages = []
-theme = ""
 enableGitInfo = false
 
 [params]
@@ -19,22 +18,22 @@ enableGitInfo = false
 
 [languages]
   [languages.ca]
-    languageCode = "ca"
-    languageName = "CA"
+    locale = "ca"
+    label = "CA"
     weight = 1
     contentDir = "content"
     [languages.ca.params]
       description = "Around the World's Pinhole Crazy People — Dia Mundial de la Fotografia Estenopeica"
   [languages.en]
-    languageCode = "en"
-    languageName = "EN"
+    locale = "en"
+    label = "EN"
     weight = 2
     contentDir = "content"
     [languages.en.params]
       description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"
   [languages.es]
-    languageCode = "es"
-    languageName = "ES"
+    locale = "es"
+    label = "ES"
     weight = 3
     contentDir = "content"
     [languages.es.params]
