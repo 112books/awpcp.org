@@ -1,11 +1,4 @@
 {{ define "main" }}
-<section class="section">
-  <div class="section-inner">
-    <h1>{{ .Title }}</h1>
-    {{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}
-  </div>
-</section>
-
 {{ $latest := string .Site.Params.latestEdition }}
 {{ $active := where .Pages ".Params.date" "!=" nil }}
 <section class="section section-alt">

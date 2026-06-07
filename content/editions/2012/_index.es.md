@@ -4,6 +4,7 @@ layout: "single"
 description: "Día Mundial de la Fotografía Estenopeica 2012 — 29 de abril de 2012"
 date: "2012-04-29"
 venue: "Can Basté"
+poster: "img/2012.jpg"
 ---
 
 El encuentro del Día Mundial de la Fotografía Estenopeica en Can Basté.

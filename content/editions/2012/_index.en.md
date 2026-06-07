@@ -4,6 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2012 — April 29, 2012"
 date: "2012-04-29"
 venue: "Can Basté"
+poster: "img/2012.jpg"
 ---
 
 The Worldwide Pinhole Photography Day gathering at Can Basté.
