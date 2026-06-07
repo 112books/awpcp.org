@@ -11,10 +11,6 @@ aliases:
 
 The 7th edition of the Worldwide Pinhole Photography Day in Barcelona.
 
-<div class="edition-poster">
-  <img src="/img/cartell-2025.png" alt="Pinhole Day 2025 poster">
-</div>
-
 ## The 7th edition
 
 **Date**: Sunday, April 27, 2025 — 11:00 AM  

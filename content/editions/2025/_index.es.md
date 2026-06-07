@@ -9,10 +9,6 @@ poster: "img/cartell-2025.png"
 
 La séptima edición del Día Mundial de la Fotografía Estenopeica en Barcelona.
 
-<div class="edition-poster">
-  <img src="/img/cartell-2025.png" alt="Cartel Pinhole Day 2025">
-</div>
-
 ## La séptima edición
 
 **Fecha**: Domingo, 27 de abril de 2025 — 11:00 h  

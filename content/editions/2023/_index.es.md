@@ -7,10 +7,6 @@ venue: "Barcelona"
 poster: "img/cartell-pinhole-day-2023-1024x724.png"
 ---
 
-<div class="edition-poster">
-  <img src="/img/cartell-pinhole-day-2023-1024x724.png" alt="Pinhole Day 2023 poster">
-</div>
-La quinta edición del Día Mundial de la Fotografía Estenopeica en Barcelona.
 
 La 5.ª edición del Día Mundial de la Fotografía Estenopeica fue un encuentro informal en la **Sala Basiana** (dentro de la **Nau Bostik**).
 

@@ -11,10 +11,6 @@ aliases:
 
 We celebrated **Worldwide Pinhole Photography Day 2022** with a pinhole workshop at **Llumàtics** (Nau Bostik). We learned to make a pinhole camera from scratch: making the pinhole, calculating the aperture, measuring light, and shooting. We developed the photos (paper, film, and Fuji Instax) on site at the Llumàtics lab.
 
-<div class="edition-poster">
-  <img src="/img/cartell-pinhole-day-2022-724x1024.png" alt="Pinhole Day 2022 poster">
-</div>
-
 <div class="gallery-coming-soon">
 
 ### Workshop photos

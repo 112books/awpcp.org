@@ -9,10 +9,6 @@ poster: "img/cartell-2025.png"
 
 La setena edició del Worldwide Pinhole Photography Day a Barcelona.
 
-<div class="edition-poster">
-  <img src="/img/cartell-2025.png" alt="Cartell Pinhole Day 2025">
-</div>
-
 ## La setena edició
 
 **Data**: Diumenge, 27 d'abril de 2025 — 11:00 h  

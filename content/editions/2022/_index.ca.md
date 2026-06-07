@@ -11,10 +11,6 @@ aliases:
 
 Vam celebrar el **Worldwide Pinhole Photography Day 2022** amb un taller d'estenop a **Llumàtics** (Nau Bostik). Vam aprendre a fer una càmera estenopeica des de zero: fer l'estenop, calcular-ne el diafragma, mesurar la llum i disparar. Vam revelar les fotos (paper, pel·lícula i Fuji Instax) al laboratori de Llumàtics.
 
-<div class="edition-poster">
-  <img src="/img/cartell-pinhole-day-2022-724x1024.png" alt="Pinhole Day 2022 poster">
-</div>
-
 <div class="gallery-coming-soon">
 
 ### Fotos del taller

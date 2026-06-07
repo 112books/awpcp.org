@@ -9,10 +9,6 @@ aliases:
   - "/worldwide-pinhole-photography-day-2023/"
 ---
 
-<div class="edition-poster">
-  <img src="/img/cartell-pinhole-day-2023-1024x724.png" alt="Pinhole Day 2023 poster">
-</div>
-The 5th edition of the Worldwide Pinhole Photography Day in Barcelona.
 
 The 5th edition of the Worldwide Pinhole Photography Day was a relaxed gathering at **Sala Basiana** (inside **Nau Bostik**).
 
