@@ -1,5 +1,5 @@
 ---
-title: "Txb 4&#215;5&#8243;"
+title: "Txb 4×5″"
 author: "Xavi Perich"
 web: "vayalata.tumblr.com"
 images:

@@ -13,17 +13,10 @@
     {{ .Content }}
   </div>
 
-  {{ $images := where .Params.images "name" "!=" nil | default .Params.images }}
-  {{ $cleanImages := slice }}
-  {{ range .Params.images }}
-    {{ if not (in . "-loader-") }}
-      {{ $cleanImages = $cleanImages | append . }}
-    {{ end }}
-  {{ end }}
-  {{ if $cleanImages }}
+  {{ if .Params.images }}
   <div class="gallery">
-    {{ range $cleanImages }}
-    <a href="{{ . }}" target="_blank"><img src="{{ . }}" alt=""></a>
+    {{ range .Params.images }}
+    <a href="{{ . }}" target="_blank"><img src="{{ . }}" alt="" loading="lazy"></a>
     {{ end }}
   </div>
   {{ end }}

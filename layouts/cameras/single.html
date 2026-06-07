@@ -1,0 +1,55 @@
+{{ define "main" }}
+<article class="camera-detail">
+  <div class="camera-layout">
+    {{ if .Params.images }}
+    <div class="camera-photo">
+      <a href="{{ index .Params.images 0 }}" target="_blank"><img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy"></a>
+    </div>
+    {{ end }}
+    <div class="camera-info">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.author }}
+      <p class="camera-author">{{ i18n "author" }}: {{ if $.Params.authorUrl }}<a href="{{ $.Params.authorUrl }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}</p>
+      {{ end }}
+      {{ with .Params.web }}<p class="camera-web">🔗 <a href="https://{{ . }}" target="_blank" rel="noopener">{{ . }}</a></p>{{ end }}
+    </div>
+  </div>
+
+  {{ with .Params.video }}
+  <div class="camera-video">
+    {{ if in . "vimeo.com/" }}
+    {{ $id := index (findRE `vimeo\.com/(\d+)` .) 0 }}
+    {{ if $id }}
+    {{ $vid := replaceRE `vimeo\.com/` "" $id }}
+    <iframe src="https://player.vimeo.com/video/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    {{ end }}
+    {{ else if in . "youtu.be/" }}
+    {{ $id := index (findRE `youtu\.be/([a-zA-Z0-9_-]+)` .) 0 }}
+    {{ if $id }}
+    {{ $vid := replaceRE `youtu\.be/` "" $id }}
+    <iframe src="https://www.youtube.com/embed/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    {{ end }}
+    {{ else if in . "youtube.com/" }}
+    {{ $id := index (findRE `youtube\.com/watch\?v=([a-zA-Z0-9_-]+)` .) 0 }}
+    {{ if $id }}
+    {{ $vid := replaceRE `youtube\.com/watch\?v=` "" $id }}
+    <iframe src="https://www.youtube.com/embed/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    {{ end }}
+    {{ else }}
+    <p>📹 <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "watch_video" }}</a></p>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{ if .Params.images }}
+  <div class="camera-gallery-bottom">
+    <h3>{{ i18n "gallery" }}</h3>
+    <div class="gallery">
+      {{ range .Params.images }}
+      <a href="{{ . }}" target="_blank"><img src="{{ . }}" alt="" loading="lazy"></a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</article>
+{{ end }}

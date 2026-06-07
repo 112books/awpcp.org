@@ -1,6 +1,7 @@
 ---
 title: "Holga 120 WPC"
 author: "Joan LInux"
+video: "https://vimeo.com/411492685"
 web: "linuxbcn.org/"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/2020-04-22b-010-1024x1024.jpg"

@@ -25,7 +25,7 @@
   {{ end }}
 </section>
 
-{{ $cameras := where .Pages "Section" "editions" }}
+{{ $cameras := .RegularPagesRecursive }}
 {{ if $cameras }}
 <section class="section section-alt">
   <div class="section-inner">
@@ -33,7 +33,7 @@
     <div class="camera-gallery">
       {{ range $cameras }}
       <a href="{{ .RelPermalink }}" class="camera-card" style="text-decoration:none;color:var(--ink);">
-        {{ with .Params.image }}<img src="{{ . }}" alt="" class="camera-card-image">{{ end }}
+        {{ with index .Params.images 0 }}<img src="{{ . }}" alt="" class="camera-card-image">{{ end }}
         <div class="camera-card-body">
           <h3>{{ .Title }}</h3>
           {{ with .Params.author }}<p class="author">{{ . }}</p>{{ end }}

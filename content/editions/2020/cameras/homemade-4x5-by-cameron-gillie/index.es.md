@@ -1,6 +1,7 @@
 ---
-title: "Homemade 4&#215;5"
+title: "Homemade 4×5"
 author: "Cameron Gillie"
+video: "https://youtu.be/HsQkysZ-1zg"
 web: "thepinholething.com"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/camera-988x1024.jpg"

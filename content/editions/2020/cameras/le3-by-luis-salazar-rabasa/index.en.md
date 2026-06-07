@@ -1,6 +1,7 @@
 ---
 title: "Le3"
 author: "Luis Salazar Rabasa"
+video: "https://vimeo.com/413913502"
 web: "flickr.com/people/152334621@N02/"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/05/DSCN0508-1024x768.jpg"

@@ -1,6 +1,7 @@
 ---
-title: "Solar_Parcel_Argentina_to_HongKong_Camera&#8211;#01"
+title: "Solar_Parcel_Argentina_to_HongKong_Camera–#01"
 author: "Ceci Liu & Stanley Ng @ Studio de Dimension de Tofu"
+video: "https://vimeo.com/411818052"
 web: "facebook.com/studio.de.tofu"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/CeciStanley-03-683x1024.jpg"

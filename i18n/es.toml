@@ -13,6 +13,9 @@ other = "Contacto"
 [legal]
 other = "Aviso Legal"
 
+[links]
+other = "Enlaces"
+
 [privacy]
 other = "Política de Privacidad"
 
@@ -85,5 +88,32 @@ other = "Autor"
 [camera]
 other = "Cámara"
 
+[gallery]
+other = "Galería de imágenes"
+
 [watch_video]
 other = "Ver vídeo"
+
+[footer_legal]
+other = "Legal"
+
+[avis_legal]
+other = "Aviso legal"
+
+[privacitat]
+other = "Privacidad"
+
+[iniciativa]
+other = "Iniciativa de"
+
+[footer_social]
+other = "Redes"
+
+[page_not_found]
+other = "Página no encontrada"
+
+[back_home]
+other = "Volver al inicio"
+
+[footer_services]
+other = "Consultoría | Desarrollo | Alojamiento | Diseño"

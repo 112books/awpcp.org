@@ -1,6 +1,7 @@
 ---
 title: "Bonita"
 author: "Alfonso De Castro"
+video: "https://vimeo.com/410940041"
 web: "alfondc.photo"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/Bonita-Zeroimage-2000-pinhole-camera-2-768x1024.jpg"

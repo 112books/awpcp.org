@@ -6,6 +6,8 @@ aliases:
   - "/qui-som/"
 ---
 
+> 🕯️ We dedicate this first AWPCP.org edition to *sensei* **Eric Renner** — a great promoter of pinhole photography around the world. Visit his amazing work at [ericrennerphoto.com](http://ericrennerphoto.com) — R.I.P.
+
 A.W.P.C.P. — **Around the World's Pinhole Crazy People** — is a non-profit association founded in April 2020 by Alfonso de Castro and Joan Linux, united by their passion for pinhole photography.
 
 Our mission is to organise the [Worldwide Pinhole Photography Day](https://pinholeday.org) in Barcelona every year, and to promote the oldest photographic technique — *camera obscura* — through workshops, exhibitions, and community events.

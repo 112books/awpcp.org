@@ -1,6 +1,7 @@
 ---
 title: "BOXOCAM"
 author: "Matthias Hagemann"
+video: "https://vimeo.com/411836763"
 web: "boxocam.de"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/BOXOCAM-1024x575.png"

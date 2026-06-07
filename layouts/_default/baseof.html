@@ -51,6 +51,7 @@
         <a href="{{ "" | relLangURL }}">{{ i18n "home" }}</a>
         <a href="{{ "about" | relLangURL }}">{{ i18n "about" }}</a>
         <a href="{{ "editions" | relLangURL }}">{{ i18n "editions" }}</a>
+        <a href="{{ "links" | relLangURL }}">{{ i18n "links" }}</a>
         <a href="{{ "contact" | relLangURL }}">{{ i18n "contact" }}</a>
       </div>
       <div class="nav-langs">
@@ -68,11 +69,130 @@
   </main>
 
   <footer class="site-footer">
-    <p>{{ i18n "footer_text" }} <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
-    <p class="footer-powered">{{ i18n "powered_by" }} <a href="https://linuxbcn.com">LinuxBCN</a></p>
+    <div class="footer-inner">
+      <div class="footer-cols">
+        <div class="footer-col">
+          <a href="{{ "" | relLangURL }}">
+            <img src="{{ "img/awpcp-logo.png" | relURL }}" alt="A.W.P.C.P." class="footer-logo" style="height:60px;width:auto;">
+          </a>
+        </div>
+        <div class="footer-col">
+          <h5>{{ i18n "footer_legal" }}</h5>
+          <a href="{{ "legal/notice" | relLangURL }}">{{ i18n "avis_legal" }}</a>
+          <a href="{{ "legal/privacy" | relLangURL }}">{{ i18n "privacitat" }}</a>
+          <a href="{{ "legal/cookies" | relLangURL }}">{{ i18n "cookies" }}</a>
+        </div>
+        <div class="footer-col">
+          <h5>{{ i18n "footer_social" }}</h5>
+          <div class="footer-social">
+            <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="mailto:{{ .Site.Params.email }}" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-powered">
+        <p>{{ i18n "powered_by" }} <a href="https://linuxbcn.cat" target="_blank" rel="noopener">LinuxBCN</a></p>
+        <p class="powered-detail">{{ i18n "footer_services" }}</p>
+      </div>
+    </div>
   </footer>
 
+  <div id="lightbox" class="lightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
+    <button class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" src="" alt="">
+    </div>
+    <div class="lightbox-dots"></div>
+  </div>
+
   <script>
+    (function() {
+      var lb = document.getElementById('lightbox');
+      var img = lb.querySelector('.lightbox-img');
+      var close = lb.querySelector('.lightbox-close');
+      var prev = lb.querySelector('.lightbox-prev');
+      var next = lb.querySelector('.lightbox-next');
+      var dots = lb.querySelector('.lightbox-dots');
+      var images = [];
+      var current = 0;
+
+      function open(index) {
+        current = index;
+        img.src = images[current];
+        lb.classList.add('open');
+        renderDots();
+        document.body.style.overflow = 'hidden';
+      }
+
+      function closeLB() {
+        lb.classList.remove('open');
+        document.body.style.overflow = '';
+      }
+
+      function prevImg() {
+        current = (current - 1 + images.length) % images.length;
+        img.src = images[current];
+        renderDots();
+      }
+
+      function nextImg() {
+        current = (current + 1) % images.length;
+        img.src = images[current];
+        renderDots();
+      }
+
+      function renderDots() {
+        dots.innerHTML = '';
+        for (var i = 0; i < images.length; i++) {
+          var dot = document.createElement('button');
+          dot.className = 'lightbox-dot' + (i === current ? ' active' : '');
+          dot.setAttribute('aria-label', 'Image ' + (i+1));
+          dot.addEventListener('click', function(idx) { return function() { open(idx); }; }(i));
+          dots.appendChild(dot);
+        }
+      }
+
+      // Collect images from galleries
+      var galleries = document.querySelectorAll('.camera-detail .gallery');
+      galleries.forEach(function(gallery) {
+        var links = gallery.querySelectorAll('a');
+        links.forEach(function(link, idx) {
+          var href = link.getAttribute('href');
+          if (href) {
+            images.push(href);
+            link.addEventListener('click', function(e) {
+              e.preventDefault();
+              open(idx);
+            });
+          }
+        });
+      });
+
+      close.addEventListener('click', closeLB);
+      prev.addEventListener('click', prevImg);
+      next.addEventListener('click', nextImg);
+
+      lb.addEventListener('click', function(e) {
+        if (e.target === lb) closeLB();
+      });
+
+      document.addEventListener('keydown', function(e) {
+        if (!lb.classList.contains('open')) return;
+        if (e.key === 'Escape') closeLB();
+        if (e.key === 'ArrowLeft') prevImg();
+        if (e.key === 'ArrowRight') nextImg();
+      });
+    })();
+
     function startCountdown() {
       var els = document.querySelectorAll('[data-countdown]');
       if (!els.length) return;

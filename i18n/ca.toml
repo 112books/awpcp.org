@@ -13,6 +13,9 @@ other = "Contacte"
 [legal]
 other = "Avís Legal"
 
+[links]
+other = "Enllaços"
+
 [privacy]
 other = "Privacitat"
 
@@ -85,5 +88,32 @@ other = "Autor"
 [camera]
 other = "Càmera"
 
+[gallery]
+other = "Galeria d'imatges"
+
 [watch_video]
 other = "Veure vídeo"
+
+[footer_legal]
+other = "Legal"
+
+[avis_legal]
+other = "Avís legal"
+
+[privacitat]
+other = "Privacitat"
+
+[iniciativa]
+other = "Iniciativa de"
+
+[footer_social]
+other = "Xarxes"
+
+[page_not_found]
+other = "Pàgina no trobada"
+
+[back_home]
+other = "Tornar a l'inici"
+
+[footer_services]
+other = "Consultoria | Desenvolupament | Hostatge | Disseny"

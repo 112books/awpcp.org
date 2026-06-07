@@ -12,5 +12,5 @@ Envíanos un correo a **[info@awpcp.org](mailto:info@awpcp.org)** o encuéntrano
 
 ## Redes sociales
 
-- **Instagram**: [@awpcp.org](https://www.instagram.com/awpcp.org/)
+- **Instagram**: [@awpcp.org](https://www.instagram.com/aroundworldpinholecrazypeople/)
 - **Facebook**: [A.W.P.C.P.](https://www.facebook.com/awpcp.org)

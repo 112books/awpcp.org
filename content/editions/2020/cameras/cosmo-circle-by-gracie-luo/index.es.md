@@ -1,6 +1,7 @@
 ---
 title: "Cosmo Circle"
 author: "Gracie Luo"
+video: "https://vimeo.com/417498221"
 web: "facebook.com/jianjian.guo.7/"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/05/camera-Cosmos-Circle.png"

@@ -1,0 +1,40 @@
+{{ define "main" }}
+<section class="section">
+  <div class="section-inner">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="section-desc">{{ . }}</div>{{ end }}
+  </div>
+</section>
+
+{{ $latest := string .Site.Params.latestEdition }}
+{{ $active := where .Pages ".Params.date" "!=" nil }}
+<section class="section section-alt">
+  <div class="section-inner">
+    <h2>{{ i18n "previous_editions" }}</h2>
+    <div class="editions-list">
+      {{ range sort $active "Params.date" "desc" }}
+      {{ $year := .File.Dir | replaceRE ".*?(\\d{4}).*" "$1" }}
+      {{ $status := "past" }}
+      {{ if eq $year $latest }}{{ $status = "active" }}{{ else if gt (int $year) (int $latest) }}{{ $status = "future" }}{{ end }}
+      <a href="{{ .RelPermalink }}" class="edition-card" style="text-decoration:none;color:var(--ink);">
+        {{ $img := .Params.poster }}
+        {{ if not $img }}
+          {{ range .RegularPages }}
+            {{ if and (not $img) .Params.images }}{{ $img = index .Params.images 0 }}{{ end }}
+          {{ end }}
+        {{ end }}
+        {{ if $img }}
+        <div class="edition-card-img">
+          <img src="{{ $img }}" alt="{{ .Title }}" loading="lazy">
+        </div>
+        {{ end }}
+        <span class="year">{{ $year }}</span>
+        <span class="status {{ $status }}">
+          {{ if eq $status "active" }}✓ {{ i18n "latest_edition" }}{{ else if eq $status "future" }}{{ i18n "next_edition" }}{{ else }}{{ .Params.date | dateFormat "2006" }}{{ end }}
+        </span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

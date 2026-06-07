@@ -1,6 +1,7 @@
 ---
 title: "Homemade DIY camera"
 author: "Sharon Harris"
+video: "https://vimeo.com/412087113"
 web: "sharonharrisphotography.com"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/camera.png"

@@ -1,6 +1,7 @@
 ---
 title: "Radar Panoramica"
 author: "Santi Pladellorens"
+video: "https://vimeo.com/413702495"
 web: "analogueworks.com"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/Radar-Panoramic-1024x683.jpg"

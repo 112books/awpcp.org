@@ -1,6 +1,7 @@
 ---
 title: "Omniscope II Abelson Scope Works"
 author: "Dominique Leyva"
+video: "https://youtu.be/LZP7pPwQfmY"
 web: "visualhuesca.wordpress.com/tag/dominique-leyva/"
 images:
   - "https://awpcp.org/wp-content/uploads/2020/04/DOMINIQUE-LEYVA-OMNISCOPE-II.jpg"

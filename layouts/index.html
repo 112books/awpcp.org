@@ -28,23 +28,25 @@
   <div class="section-inner">
     <h2>{{ i18n "previous_editions" }}</h2>
     <div class="editions-list">
-      {{ $pages := where .Site.Pages "Section" "editions" }}
-      {{ $years := slice }}
-      {{ range $pages }}
-        {{ if and (not .IsSection) (eq .Lang $.Lang) }}
-          {{ $year := .File.Dir | replaceRE "editions/(\\d{4})/.*" "$1" }}
-          {{ if not (in $years $year) }}
-            {{ $years = $years | append $year }}
-          {{ end }}
-        {{ end }}
-      {{ end }}
-      {{ range $years }}
-        {{ $yearPage := $.Site.GetPage (printf "/editions/%s" .) }}
+      {{ range (seq 11) }}
+        {{ $y := add 2015 . }}
+        {{ $yearPage := $.Site.GetPage (printf "/editions/%d" $y) }}
         {{ if $yearPage }}
         <a href="{{ $yearPage.RelPermalink }}" class="edition-card" style="text-decoration:none;color:var(--ink);">
-          <span class="year">{{ . }}</span>
-          <span class="status {{ if eq . $latest }}active{{ else if gt (int .) 2025 }}future{{ else }}past{{ end }}">
-            {{ if eq . $latest }}{{ i18n "latest_edition" }}{{ else if gt (int .) 2025 }}{{ i18n "participate" }}{{ else }}{{ i18n "previous_editions" }}{{ end }}
+          {{ $img := $yearPage.Params.poster }}
+          {{ if not $img }}
+            {{ range $yearPage.RegularPages }}
+              {{ if and (not $img) .Params.images }}{{ $img = index .Params.images 0 }}{{ end }}
+            {{ end }}
+          {{ end }}
+          {{ if $img }}
+          <div class="edition-card-img">
+            <img src="{{ $img }}" alt="{{ $yearPage.Title }}" loading="lazy">
+          </div>
+          {{ end }}
+          <span class="year">{{ $y }}</span>
+          <span class="status {{ if eq (string $y) $latest }}active{{ else if gt $y (int $latest) }}future{{ else }}past{{ end }}">
+            {{ if eq (string $y) $latest }}{{ i18n "latest_edition" }}{{ else if gt $y (int $latest) }}{{ i18n "participate" }}{{ else }}{{ i18n "previous_editions" }}{{ end }}
           </span>
         </a>
         {{ end }}

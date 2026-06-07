@@ -10,10 +10,10 @@ enableGitInfo = false
   description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"
   author = "Alfonso de Castro & Joan Linux"
   email = "info@awpcp.org"
-  instagram = "https://www.instagram.com/awpcp.org/"
+  instagram = "https://www.instagram.com/aroundworldpinholecrazypeople/"
   facebook = "https://www.facebook.com/awpcp.org/"
   ogImage = "/img/awpcp-logo.png"
-  latestEdition = "2025"
+  latestEdition = "2026"
   goatcounter = "awpcp"
   pinholeDayDate = "2026-04-26T11:00:00"
 
@@ -50,7 +50,14 @@ enableGitInfo = false
   editions_cameras = "/:slug/"
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [mediaTypes]
   [mediaTypes."text/netlify"]
