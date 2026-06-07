@@ -8,6 +8,7 @@ description: "Guía de recursos para la fotografía estenopeica — enlaces, tut
 {{% accordion title="Webs oficiales" %}}
 
 - [Worldwide Pinhole Photography Day](https://pinholeday.org/) — Web oficial del Día Mundial de la Fotografía Estenopeica, el encuentro mundial de la comunidad estenopeica
+  - [Guía para subir tu imagen al proyecto internacional](https://pinholeday.org/index.php?setlang=es)
 - [A.W.P.C.P.](https://awpcp.org/) — Around World Pinhole Crazy People, organizadores del WPPD en Barcelona
 - [The Pinhole Project](https://www.thepinholeproject.org/) — Archivo de autores contemporáneos y proyectos experimentales de estenopo
 

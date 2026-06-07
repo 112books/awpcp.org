@@ -8,6 +8,7 @@ description: "Pinhole photography resource guide — links, tutorials, DIY manua
 {{% accordion title="Official websites" %}}
 
 - [Worldwide Pinhole Photography Day](https://pinholeday.org/) — Official International Pinhole Day website, the global gathering of the pinhole community
+  - [Guide to upload your image to the international project](https://pinholeday.org/index.php?setlang=en)
 - [A.W.P.C.P.](https://awpcp.org/) — Around World Pinhole Crazy People, WPPD organizers in Barcelona
 - [The Pinhole Project](https://www.thepinholeproject.org/) — Archive of contemporary authors and experimental pinhole projects
 
