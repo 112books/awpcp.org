@@ -139,6 +139,47 @@ description: "Guía de recursos para la fotografía estenopeica — enlaces, tut
 
 {{% /accordion %}}
 
+{{% accordion title="Fotómetros" %}}
+
+En fotografía estenopeica hay tres grandes familias de fotómetros: los físicos, los calculadores mecánicos o impresos, y las aplicaciones móviles. Muchos estenopeistas veteranos siguen usando discos de cálculo de papel porque incorporan la reciprocidad y no dependen de baterías.
+
+### Aplicaciones específicas para estenopeica
+
+- **Pinhole Assist (iPhone/iPad)** — La app más completa para estenopeica. Incluye fotómetro integrado, cálculo directo para cámaras estenopeicas, corrección de fallo de reciprocidad, base de datos de películas y papeles, temporizador para exposiciones largas y perfiles de cientos de cámaras. Mucha gente de la comunidad la considera la referencia actual.
+- **Light Meter & Logbook (Android)** — Permite introducir diafragmas muy cerrados (f/200, f/256…), compensación de reciprocidad, perfiles personalizados y temporizador de exposiciones largas.
+- **Pinhole Exposure Meter (Android)** — Proyecto reciente específico para estenopeica: mide EV con la cámara del móvil, corrección automática de reciprocidad y temporizador integrado.
+
+### Discos y calculadores de papel
+
+- **Ilford Pinhole Exposure Calculator** — El clásico disco giratorio imprimible. Versiones para papel fotográfico y película. No necesita baterías. Muy usado en escuelas y talleres.
+- **Mr Pinhole Exposure Calculator** — Calculadora online, tablas imprimibles y fórmulas para calcular el número f real de la cámara.
+- **Reality So Subtle Exposure Wheel** — Rueda de cálculo EV → tiempo de exposición con corrección de reciprocidad. Se pueden encontrar PDFs y reproducciones en internet.
+
+### Fotómetros físicos clásicos
+
+- **Sekonic L-398A Studio Deluxe III** — Sin pilas, célula de selenio, escalas EV muy cómodas. Ideal para combinar con una rueda de cálculo.
+- **Gossen Sixtomat F2** — Compacto, preciso, lectura EV directa.
+- **Gossen Digisix 2** — Muy pequeño, ideal para llevar en el bolsillo, lectura EV directa.
+- **Sekonic L-308S Flashmate** — Digital, ligero, muy usado en fotografía analógica contemporánea.
+
+### Opción ultra-analógica
+
+Para talleres o actividades divulgativas puedes imprimir una tarjeta como esta:
+
+| Condición | ISO 100 f/180 |
+|---|---|
+| Sol brillante | 1 s |
+| Sol ligeramente nublado | 2 s |
+| Nubes claras | 4 s |
+| Sombra abierta | 8-15 s |
+| Interior luminoso | 30 s - 2 min |
+
+y luego aplicar la corrección de reciprocidad de la película. Esto es muy parecido a lo que hacían los estenopeistas antes de la era digital.
+
+**Selección personal:** Pinhole Assist (precisión), disco Ilford imprimible (conceptos), Sekonic L-398A (analógico) y una ficha propia con tiempos orientativos para cada cámara del taller.
+
+{{% /accordion %}}
+
 {{% accordion title="Materiales y referencias" %}}
 
 - [Pinhole Resource](https://pinholeresource.com/) — Proveedor de cámaras, pinholes y accesorios sin ánimo de lucro (fundado por Eric Renner y Nancy Spencer)

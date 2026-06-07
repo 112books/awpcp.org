@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2024 — 29 d'abril de 2024"
 date: "2024-04-29"
 venue: "Barcelona"
-poster: "img/Worldwide-Pinhole-Photography-Day-2024_1-1024x1024.jpg"
+poster: "img/2024-04-30 - L-CA+ - PluxX-Pan125 - Varies -0002.jpg"
 ---
 
 La sisena edició del Worldwide Pinhole Photography Day a Barcelona.

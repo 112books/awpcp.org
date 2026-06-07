@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2020 — April 27, 2020"
 date: "2020-04-27"
 venue: "Barcelona (online)"
-poster: "https://awpcp.org/wp-content/uploads/2020/04/cameras-1024x678.jpg"
+poster: "img/cameras-2020-1024x678.jpg"
 aliases:
   - "/worldwide-pinhole-photography-day-2020/"
   - "/pinhole-photography-day/"

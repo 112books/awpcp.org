@@ -4,6 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2021 — 26 d'abril de 2021"
 date: "2021-04-26"
 venue: "Barcelona (online)"
+poster: "img/2021.jpg"
 ---
 
 La tercera edició del Worldwide Pinhole Photography Day a Barcelona, en format virtual.
@@ -16,6 +17,5 @@ La tercera edició del Worldwide Pinhole Photography Day a Barcelona va tenir ll
 
 ### Fotos
 
-<a href="https://photos.app.goo.gl/wj1vYuUJpdkmyStR9" class="btn" target="_blank" rel="noopener">📜 Cartell 2021</a>
 <a href="https://photos.app.goo.gl/bgBNR2j3PCS15isE7" class="btn" target="_blank" rel="noopener">📷 Retrats estenopeics 2021</a>
 <a href="https://photos.app.goo.gl/Ya8r6pBHkTt9QuH8A" class="btn" target="_blank" rel="noopener">📷 Making-of 2021</a>

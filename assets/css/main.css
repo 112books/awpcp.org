@@ -68,7 +68,7 @@ img { max-width: 100%; height: auto; }
 
 .section { padding: 5rem 1.5rem; }
 .section-alt { background: var(--bg-alt); }
-.section-inner { max-width: 720px; margin: 0 auto; text-align: center; }
+.section-inner { max-width: 900px; margin: 0 auto; text-align: center; }
 .section h2 { font-family: var(--serif); font-size: 2.2rem; font-weight: 700; margin-bottom: 2rem; letter-spacing: -0.01em; }
 .section-desc { color: var(--ink-2); margin-bottom: 2rem; font-size: 0.95rem; font-family: var(--sans); }
 .prose { text-align: left; }

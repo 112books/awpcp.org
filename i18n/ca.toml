@@ -44,7 +44,7 @@ other = "Comparteix"
 other = "Contacta:"
 
 [powered_by]
-other = "Desenvolupat per"
+other = "Powered by"
 
 [edition_title]
 other = "Worldwide Pinhole Photography Day {{ .Year }}"

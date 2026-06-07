@@ -139,6 +139,47 @@ description: "Guia de recursos per a la fotografia estenopeica — enllaços, tu
 
 {{% /accordion %}}
 
+{{% accordion title="Fotòmetres" %}}
+
+En fotografia estenopeica hi ha tres grans famílies de fotòmetres: els físics, els calculadors mecànics o impresos, i les aplicacions mòbils. Molts estenopeistes veterans continuen utilitzant discos de càlcul de paper perquè incorporen la reciprocitat i no depenen de bateries.
+
+### Aplicacions específiques per a estenopeica
+
+- **Pinhole Assist (iPhone/iPad)** — L'app més completa per a estenopeica. Inclou fotòmetre integrat, càlcul directe per a càmeres estenopeiques, correcció de fallada de reciprocitat, base de dades de pel·lícules i papers, temporitzador per a exposicions llargues i perfils de centenars de càmeres. Molta gent de la comunitat la considera la referència actual.
+- **Light Meter & Logbook (Android)** — Permet introduir diafragmes molt tancats (f/200, f/256…), compensació de reciprocitat, perfils personalitzats i temporitzador d'exposicions llargues.
+- **Pinhole Exposure Meter (Android)** — Projecte recent específic per a estenopeica: mesura EV amb la càmera del mòbil, correcció automàtica de reciprocitat i temporitzador integrat.
+
+### Discos i calculadors de paper
+
+- **Ilford Pinhole Exposure Calculator** — El clàssic disc giratori imprimible. Versions per a paper fotogràfic i pel·lícula. No necessita bateries. Molt utilitzat en escoles i tallers.
+- **Mr Pinhole Exposure Calculator** — Calculadora online, taules imprimibles i fórmules per calcular el número f real de la càmera.
+- **Reality So Subtle Exposure Wheel** — Roda de càlcul EV → temps d'exposició amb correcció de reciprocitat. Es poden trobar PDFs i reproduccions a internet.
+
+### Fotòmetres físics clàssics
+
+- **Sekonic L-398A Studio Deluxe III** — Sense piles, cèl·lula de seleni, escales EV molt còmodes. Ideal per combinar amb una roda de càlcul.
+- **Gossen Sixtomat F2** — Compacte, precís, lectura EV directa.
+- **Gossen Digisix 2** — Molt petit, ideal per portar a la butxaca, lectura EV directa.
+- **Sekonic L-308S Flashmate** — Digital, lleuger, molt utilitzat en fotografia analògica contemporània.
+
+### Opció ultra-analògica
+
+Per a tallers o activitats divulgatives pots imprimir una targeta com aquesta:
+
+| Condició | ISO 100 f/180 |
+|---|---|
+| Sol brillant | 1 s |
+| Sol lleugerament tapat | 2 s |
+| Núvols clars | 4 s |
+| Ombra oberta | 8-15 s |
+| Interior lluminós | 30 s - 2 min |
+
+i després aplicar la correcció de reciprocitat de la pel·lícula. Això és molt semblant al que feien els estenopeistes abans de l'era digital.
+
+**Selecció personal:** Pinhole Assist (precisió), disc Ilford imprimible (conceptes), Sekonic L-398A (analògic) i una fitxa pròpia amb temps orientatius per a cada càmera del taller.
+
+{{% /accordion %}}
+
 {{% accordion title="Materials i referències" %}}
 
 - [Pinhole Resource](https://pinholeresource.com/) — Proveïdor de càmeres, pinholes i accessoris sense ànim de lucre (fundat per Eric Renner i Nancy Spencer)

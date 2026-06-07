@@ -139,6 +139,47 @@ description: "Pinhole photography resource guide — links, tutorials, DIY manua
 
 {{% /accordion %}}
 
+{{% accordion title="Light meters" %}}
+
+In pinhole photography there are three main families of light meters: physical meters, mechanical or printed calculators, and mobile apps. Many veteran pinhole photographers still use paper calculation wheels because they incorporate reciprocity and don't depend on batteries.
+
+### Pinhole-specific apps
+
+- **Pinhole Assist (iPhone/iPad)** — The most complete pinhole app available. Includes built-in light meter, direct calculation for pinhole cameras, reciprocity failure correction, film and paper database, long exposure timer, and profiles for hundreds of pinhole cameras. Widely considered the current reference in the community.
+- **Light Meter & Logbook (Android)** — Allows very small apertures (f/200, f/256…), reciprocity compensation, custom profiles, and long exposure timer.
+- **Pinhole Exposure Meter (Android)** — Recent project specifically for pinhole: EV metering with phone camera, automatic reciprocity correction, and built-in timer.
+
+### Paper discs and calculators
+
+- **Ilford Pinhole Exposure Calculator** — The classic printable rotary disc. Versions for photographic paper and film. No batteries needed. Widely used in schools and workshops.
+- **Mr Pinhole Exposure Calculator** — Online calculator, printable tables, and formulas to calculate the actual f-number of your camera.
+- **Reality So Subtle Exposure Wheel** — EV → exposure time calculator with reciprocity correction. PDFs and reproductions available online.
+
+### Classic physical light meters
+
+- **Sekonic L-398A Studio Deluxe III** — No batteries, selenium cell, very convenient EV scales. Ideal to pair with a calculation wheel.
+- **Gossen Sixtomat F2** — Compact, accurate, direct EV reading.
+- **Gossen Digisix 2** — Very small, pocket-friendly, direct EV reading.
+- **Sekonic L-308S Flashmate** — Digital, lightweight, widely used in contemporary analog photography.
+
+### Ultra-analog option
+
+For workshops or outreach activities you can print a reference card like this:
+
+| Condition | ISO 100 f/180 |
+|---|---|
+| Bright sun | 1 s |
+| Lightly overcast | 2 s |
+| Cloudy | 4 s |
+| Open shade | 8-15 s |
+| Bright interior | 30 s - 2 min |
+
+then apply the film's reciprocity correction. This is very close to what pinhole photographers did before the digital age.
+
+**Personal pick:** Pinhole Assist (precision), Ilford printable disc (concepts), Sekonic L-398A (analog), and a custom reference card with exposure times for each workshop camera.
+
+{{% /accordion %}}
+
 {{% accordion title="Materials & references" %}}
 
 - [Pinhole Resource](https://pinholeresource.com/) — Non-profit supplier of pinhole cameras, pinholes & accessories (founded by Eric Renner and Nancy Spencer)

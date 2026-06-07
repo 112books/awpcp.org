@@ -4,6 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2011 — 30 d'abril de 2011"
 date: "2011-04-30"
 venue: "Can Basté"
+poster: "img/2011.jpg"
 ---
 
 La trobada del Worldwide Pinhole Photography Day a Can Basté.
@@ -12,7 +13,6 @@ La trobada del Worldwide Pinhole Photography Day a Can Basté.
 
 ### Fotos
 
-<a href="https://photos.app.goo.gl/ihxZfHktr3Kqvj6s9" class="btn" target="_blank" rel="noopener">📜 Cartell</a>
 <a href="https://photos.app.goo.gl/tJkUKQ2QCJzM6teF3" class="btn" target="_blank" rel="noopener">📷 Veure fotos a Google Photos</a>
 
 </div>
