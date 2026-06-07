@@ -7,7 +7,7 @@ images:
   - "/img/2020/04/6-Estenopos-y-Ojo-de-Lata-1024x813.jpg"
   - "/img/2020/04/Anexion-AndreaMelo-BogotaColombia-760x1024.jpg"
   - "/img/2020/04/AutoretratoAndreaMelo-BogotaColombia.jpg"
-  - "/img/2020/04/MaletaAndreaMeloBogotáColombia-1024x894.jpg"
+  - "/img/2020/04/MaletaAndreaMeloBogotaColombia-1024x894.jpg"
   - "/img/2020/04/Mayoras1AndreaMeloBogota-Colombia-748x1024.jpg"
 
 aliases:
