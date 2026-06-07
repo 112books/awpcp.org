@@ -1,4 +1,4 @@
-baseURL = "https://112books.github.io/awpcp.org/"
+baseURL = "https://awpcp.org/"
 title = "A.W.P.C.P."
 locale = "ca"
 DefaultContentLanguage = "ca"
