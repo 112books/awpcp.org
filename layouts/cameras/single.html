@@ -46,7 +46,7 @@
     <h3>{{ i18n "gallery" }}</h3>
     <div class="gallery">
       {{ range .Params.images }}
-      <a href="{{ . }}" target="_blank"><img src="{{ . }}" alt="" loading="lazy"></a>
+      <a href="{{ . }}" target="_blank" rel="noopener"><img src="{{ . }}" alt="{{ $.Title }} gallery" loading="lazy"></a>
       {{ end }}
     </div>
   </div>

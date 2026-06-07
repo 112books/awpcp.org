@@ -11,8 +11,9 @@
     <h2>{{ i18n "all_cameras" }}</h2>
     <div class="camera-gallery">
       {{ range $cameras }}
+      {{ $cameraTitle := .Title }}
       <a href="{{ .RelPermalink }}" class="camera-card" style="text-decoration:none;color:var(--ink);">
-        {{ with index .Params.images 0 }}<img src="{{ . }}" alt="" class="camera-card-image">{{ end }}
+        {{ with index .Params.images 0 }}<img src="{{ . }}" alt="{{ $cameraTitle }}" class="camera-card-image">{{ end }}
         <div class="camera-card-body">
           <h3>{{ .Title }}</h3>
           {{ with .Params.author }}<p class="author">{{ . }}</p>{{ end }}

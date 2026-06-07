@@ -5,10 +5,10 @@
 
 <section class="edition-hero">
   <div>
-    {{ if eq $status "active" }}<span class="edition-badge">✓ {{ i18n "latest_edition" }}{{ end }}</span>
+    {{ if eq $status "active" }}<span class="edition-badge">✓ {{ i18n "latest_edition" }}</span>{{ end }}
     <h1>{{ .Title }}</h1>
     {{ with .Params.date }}<p class="edition-date">{{ dateFormat "Monday, January 2, 2006" . }}</p>{{ end }}
-    {{ with .Params.venue }}<p class="edition-venue">📍 {{ . | safeHTML }}</p>{{ end }}
+    {{ with .Params.venue }}<p class="edition-venue">📍 {{ . }}</p>{{ end }}
     {{ if .Params.noPlans }}<p style="font-style:italic;color:var(--ink-2);max-width:500px;margin:0.5rem auto 0;">{{ i18n "no_plans" }}</p>{{ end }}
   </div>
 </section>
@@ -33,8 +33,9 @@
     <h2>{{ i18n "all_cameras" }}</h2>
     <div class="camera-gallery">
       {{ range $cameras }}
+      {{ $cameraTitle := .Title }}
       <a href="{{ .RelPermalink }}" class="camera-card" style="text-decoration:none;color:var(--ink);">
-        {{ with index .Params.images 0 }}<img src="{{ . }}" alt="" class="camera-card-image">{{ end }}
+        {{ with index .Params.images 0 }}<img src="{{ . }}" alt="{{ $cameraTitle }}" class="camera-card-image">{{ end }}
         <div class="camera-card-body">
           <h3>{{ .Title }}</h3>
           {{ with .Params.author }}<p class="author">{{ . }}</p>{{ end }}

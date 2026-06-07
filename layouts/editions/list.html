@@ -3,7 +3,7 @@
 {{ $active := where .Pages ".Params.date" "!=" nil }}
 <section class="section section-alt">
   <div class="section-inner">
-    <h2>{{ i18n "previous_editions" }}</h2>
+    <h1>{{ i18n "previous_editions" }}</h1>
     <div class="editions-list">
       {{ range sort $active "Params.date" "desc" }}
       {{ $year := .File.Dir | replaceRE ".*?(\\d{4}).*" "$1" }}
@@ -12,7 +12,7 @@
       <a href="{{ .RelPermalink }}" class="edition-card{{ if eq $year $latest }} featured{{ end }}" style="text-decoration:none;color:var(--ink);">
         {{ $img := .Params.poster }}
         {{ if not $img }}
-          {{ range .RegularPages }}
+          {{ range .RegularPagesRecursive }}
             {{ if and (not $img) .Params.images }}{{ $img = index .Params.images 0 }}{{ end }}
           {{ end }}
         {{ end }}

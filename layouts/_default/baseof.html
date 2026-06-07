@@ -32,6 +32,24 @@
     {{ end }}{{ end }}
   {{ end }}
 
+  {{ if eq .Kind "404" }}<meta name="robots" content="noindex, nofollow">{{ end }}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "A.W.P.C.P.",
+    "description": "Around the World's Pinhole Crazy People",
+    "url": "{{ .Permalink }}",
+    "logo": "{{ .Site.Params.ogImage | absURL }}",
+    "email": "{{ .Site.Params.email }}",
+    "sameAs": [
+      "{{ .Site.Params.instagram }}",
+      "{{ .Site.Params.facebook }}"
+    ]
+  }
+  </script>
+
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
