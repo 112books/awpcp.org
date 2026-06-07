@@ -14,6 +14,7 @@ Aquí teniu les fotos d'aquell dia:
 
 ### Fotos
 
-<a href="https://photos.app.goo.gl/gEjhu5u4sP36pnYf7" class="btn" target="_blank" rel="noopener">📷 Veure fotos a Google Photos</a>
+<a href="https://photos.app.goo.gl/gEjhu5u4sP36pnYf7" class="btn" target="_blank" rel="noopener">📷 Fotos WPPD 2016</a>
+<a href="https://photos.app.goo.gl/8NtANd5noF8VjCK3A" class="btn" target="_blank" rel="noopener">📷 Making-of</a>
 
 </div>

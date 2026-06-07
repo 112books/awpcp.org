@@ -14,6 +14,7 @@ Here are the photos from that day:
 
 ### Photos
 
-<a href="https://photos.app.goo.gl/gEjhu5u4sP36pnYf7" class="btn" target="_blank" rel="noopener">📷 View photos on Google Photos</a>
+<a href="https://photos.app.goo.gl/gEjhu5u4sP36pnYf7" class="btn" target="_blank" rel="noopener">📷 WPPD 2016 photos</a>
+<a href="https://photos.app.goo.gl/8NtANd5noF8VjCK3A" class="btn" target="_blank" rel="noopener">📷 Making-of</a>
 
 </div>
