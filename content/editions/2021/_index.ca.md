@@ -16,5 +16,6 @@ La tercera edició del Worldwide Pinhole Photography Day a Barcelona va tenir ll
 
 ### Fotos
 
+<a href="https://photos.app.goo.gl/wj1vYuUJpdkmyStR9" class="btn" target="_blank" rel="noopener">📜 Cartell 2021</a>
 <a href="https://photos.app.goo.gl/bgBNR2j3PCS15isE7" class="btn" target="_blank" rel="noopener">📷 Retrats estenopeics 2021</a>
 <a href="https://photos.app.goo.gl/Ya8r6pBHkTt9QuH8A" class="btn" target="_blank" rel="noopener">📷 Making-of 2021</a>
