@@ -12,6 +12,7 @@ El encuentro del Día Mundial de la Fotografía Estenopeica en Can Basté.
 
 ### Fotos
 
+<a href="https://photos.app.goo.gl/ihxZfHktr3Kqvj6s9" class="btn" target="_blank" rel="noopener">📜 Cartel</a>
 <a href="https://photos.app.goo.gl/tJkUKQ2QCJzM6teF3" class="btn" target="_blank" rel="noopener">📷 Ver fotos en Google Photos</a>
 
 </div>

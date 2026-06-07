@@ -12,6 +12,7 @@ The Worldwide Pinhole Photography Day gathering at Can Basté.
 
 ### Photos
 
+<a href="https://photos.app.goo.gl/ihxZfHktr3Kqvj6s9" class="btn" target="_blank" rel="noopener">📜 Poster</a>
 <a href="https://photos.app.goo.gl/tJkUKQ2QCJzM6teF3" class="btn" target="_blank" rel="noopener">📷 View photos on Google Photos</a>
 
 </div>
