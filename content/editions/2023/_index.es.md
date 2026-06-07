@@ -4,7 +4,7 @@ layout: "single"
 description: "Día Mundial de la Fotografía Estenopeica 2023 — 24 de abril de 2023"
 date: "2023-04-24"
 venue: "Barcelona"
-poster: "/img/cartell-pinhole-day-2023-1024x724.png"
+poster: "img/cartell-pinhole-day-2023-1024x724.png"
 ---
 
 <div class="edition-poster">

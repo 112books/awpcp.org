@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2025 — April 28, 2025"
 date: "2025-04-28"
 venue: "Barcelona"
-poster: "/img/cartell-2025.png"
+poster: "img/cartell-2025.png"
 aliases:
   - "/worldwide-pinhole-photography-day-2025-2/"
 ---

@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2022 — April 25, 2022"
 date: "2022-04-25"
 venue: "Barcelona"
-poster: "/img/cartell-pinhole-day-2022-724x1024.png"
+poster: "img/cartell-pinhole-day-2022-724x1024.png"
 aliases:
   - "/worldwide-pinhole-photography-day-2022/"
 ---

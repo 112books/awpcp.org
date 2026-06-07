@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2023 — 24 d'abril de 2023"
 date: "2023-04-24"
 venue: "Barcelona"
-poster: "/img/cartell-pinhole-day-2023-1024x724.png"
+poster: "img/cartell-pinhole-day-2023-1024x724.png"
 aliases:
   - "/pinhole-day-2022-2/"
 ---

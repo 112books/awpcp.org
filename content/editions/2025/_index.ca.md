@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2025 — 28 d'abril de 2025"
 date: "2025-04-28"
 venue: "Barcelona"
-poster: "/img/cartell-2025.png"
+poster: "img/cartell-2025.png"
 ---
 
 La setena edició del Worldwide Pinhole Photography Day a Barcelona.

@@ -4,7 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2024 — April 29, 2024"
 date: "2024-04-29"
 venue: "Barcelona"
-poster: "/img/Worldwide-Pinhole-Photography-Day-2024_1-1024x1024.jpg"
+poster: "img/Worldwide-Pinhole-Photography-Day-2024_1-1024x1024.jpg"
 aliases:
   - "/worldwide-pinhole-photography-day-2024/"
 ---

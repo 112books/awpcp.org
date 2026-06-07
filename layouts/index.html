@@ -28,20 +28,19 @@
   <div class="section-inner">
     <h2>{{ i18n "previous_editions" }}</h2>
     <div class="editions-list">
-      {{ range (seq 11) }}
-        {{ $y := add 2015 . }}
+      {{ range $y := (seq 2026 2016) }}
         {{ $yearPage := $.Site.GetPage (printf "/editions/%d" $y) }}
         {{ if $yearPage }}
-        <a href="{{ $yearPage.RelPermalink }}" class="edition-card" style="text-decoration:none;color:var(--ink);">
+        <a href="{{ $yearPage.RelPermalink }}" class="edition-card{{ if eq (string $y) $latest }} featured{{ end }}" style="text-decoration:none;color:var(--ink);">
           {{ $img := $yearPage.Params.poster }}
           {{ if not $img }}
             {{ range $yearPage.RegularPages }}
-              {{ if and (not $img) .Params.images }}{{ $img = index .Params.images 0 }}{{ end }}
+              {{ if and (not $img) .Params.images }}{{ $img = (index .Params.images 0) }}{{ end }}
             {{ end }}
           {{ end }}
           {{ if $img }}
           <div class="edition-card-img">
-            <img src="{{ $img }}" alt="{{ $yearPage.Title }}" loading="lazy">
+            <img src="{{ $img | absURL }}" alt="{{ $yearPage.Title }}" loading="lazy">
           </div>
           {{ end }}
           <span class="year">{{ $y }}</span>

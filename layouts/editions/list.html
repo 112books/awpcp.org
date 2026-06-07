@@ -16,7 +16,7 @@
       {{ $year := .File.Dir | replaceRE ".*?(\\d{4}).*" "$1" }}
       {{ $status := "past" }}
       {{ if eq $year $latest }}{{ $status = "active" }}{{ else if gt (int $year) (int $latest) }}{{ $status = "future" }}{{ end }}
-      <a href="{{ .RelPermalink }}" class="edition-card" style="text-decoration:none;color:var(--ink);">
+      <a href="{{ .RelPermalink }}" class="edition-card{{ if eq $year $latest }} featured{{ end }}" style="text-decoration:none;color:var(--ink);">
         {{ $img := .Params.poster }}
         {{ if not $img }}
           {{ range .RegularPages }}
@@ -25,7 +25,7 @@
         {{ end }}
         {{ if $img }}
         <div class="edition-card-img">
-          <img src="{{ $img }}" alt="{{ .Title }}" loading="lazy">
+          <img src="{{ $img | absURL }}" alt="{{ .Title }}" loading="lazy">
         </div>
         {{ end }}
         <span class="year">{{ $year }}</span>

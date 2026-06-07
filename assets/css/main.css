@@ -163,6 +163,10 @@ img { max-width: 100%; height: auto; }
 .btn:hover { background: #333; color: #fff; border-color: #333; }
 
 .editions-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; max-width: 900px; margin: 0 auto; }
+.edition-card.featured { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(250px, 1fr) 2fr; gap: 1.5rem; text-align: left; padding: 0; align-items: center; }
+.edition-card.featured .edition-card-img { aspect-ratio: auto; height: 100%; min-height: 280px; }
+.edition-card.featured .year { font-size: 2rem; margin-top: 0; }
+.edition-card.featured .status { margin-top: 0.5rem; }
 .edition-card {
   background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
   padding: 0 0 1rem; text-align: center; overflow: hidden;

@@ -4,7 +4,7 @@ layout: "single"
 description: "Día Mundial de la Fotografía Estenopeica 2025 — 28 de abril de 2025"
 date: "2025-04-28"
 venue: "Barcelona"
-poster: "/img/cartell-2025.png"
+poster: "img/cartell-2025.png"
 ---
 
 La séptima edición del Día Mundial de la Fotografía Estenopeica en Barcelona.

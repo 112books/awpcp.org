@@ -4,7 +4,7 @@ layout: "single"
 description: "Día Mundial de la Fotografía Estenopeica 2022 — 25 de abril de 2022"
 date: "2022-04-25"
 venue: "Barcelona"
-poster: "/img/cartell-pinhole-day-2022-724x1024.png"
+poster: "img/cartell-pinhole-day-2022-724x1024.png"
 aliases:
   - "/worldwide-pinhole-photography-day-2022-2/"
 ---
