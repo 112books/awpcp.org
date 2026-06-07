@@ -4,7 +4,7 @@ author: "Kümei Kirschmann"
 video: "https://youtu.be/v-oxfIaX7hg"
 web: "https://www.instagram.com/kumeiaa"
 images:
-  - "/img/2020/04/Cámara-Cápsula-695x1024.jpg"
+  - "/img/2020/04/Camera-Capsula-695x1024.jpg"
   - "/img/2020/04/2.jpg"
   - "/img/2020/04/6.jpg"
   - "/img/2020/04/4-811x1024.jpg"
