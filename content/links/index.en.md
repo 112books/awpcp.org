@@ -191,3 +191,15 @@ then apply the film's reciprocity correction. This is very close to what pinhole
 - [StenopeiKa](https://www.stenopeika.com/) — Large format cameras and accessories
 
 {{% /accordion %}}
+
+{{% accordion title="Software" %}}
+
+Applications developed by [LinuxBCN.com](https://linuxbcn.com/) for pinhole and analog photography.
+
+- [Positivador WebApp](https://linuxbcn.com/ca/projectes/app-positivador/) — WebApp for positive printing on your phone: open the camera, point at the negative (paper or film) and see the positive image in real time. Also inverts, rotates and freezes the image for inspection. PRO version allows saving, adjusting exposure and gamma. Ideal for workshops.
+  - [positivador.linuxbcn.com](https://positivador.linuxbcn.com/) — Try it directly
+
+- [Estenop — Pinhole Calculator](https://linuxbcn.com/ca/projectes/app-estenop/) — Light meter specifically for pinhole cameras. Reads ambient light with your phone's camera, select aperture (f/64, f/128, f/180…) and film stock, get exposure time with built-in reciprocity correction. Includes timer. Beta version in development.
+  - [estenop.linuxbcn.com](https://estenop.linuxbcn.com/) — Try it directly
+
+{{% /accordion %}}

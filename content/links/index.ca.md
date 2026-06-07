@@ -191,3 +191,15 @@ i després aplicar la correcció de reciprocitat de la pel·lícula. Això és m
 - [StenopeiKa](https://www.stenopeika.com/) — Càmeres de gran format i accessoris
 
 {{% /accordion %}}
+
+{{% accordion title="Programari" %}}
+
+Aplicacions desenvolupades per [LinuxBCN.com](https://linuxbcn.com/) per a la fotografia estenopeica i analògica.
+
+- [Positivador WebApp](https://linuxbcn.com/ca/projectes/app-positivador/) — WebApp per positivar amb el mòbil: obre la càmera, enfoca el negatiu (paper o pel·lícula) i veu la imatge en positiu en temps real. També inverteix, gira i congela la imatge per inspeccionar-la. Versió PRO permet desar, ajustar exposició i gamma. Ideal per a tallers i talleristes.
+  - [positivador.linuxbcn.com](https://positivador.linuxbcn.com/) — Prova-la directament
+
+- [Estenop — Calculadora pinhole](https://linuxbcn.com/ca/projectes/app-estenop/) — Fotòmetre específic per a càmeres estenopeiques. Llegeix la llum ambient amb la càmera del mòbil, selecciones el diafragma (f/64, f/128, f/180…) i l'emulsió, i obté el temps d'exposició amb correcció de reciprocitat integrada. Inclou temporitzador. Versió beta en desenvolupament.
+  - [estenop.linuxbcn.com](https://estenop.linuxbcn.com/) — Prova-la directament
+
+{{% /accordion %}}
