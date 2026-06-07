@@ -28,7 +28,7 @@
   <div class="section-inner">
     <h2>{{ i18n "previous_editions" }}</h2>
     <div class="editions-list">
-      {{ range $y := (seq 2026 2016) }}
+      {{ range $y := (seq 2026 2011) }}
         {{ $yearPage := $.Site.GetPage (printf "/editions/%d" $y) }}
         {{ if $yearPage }}
         <a href="{{ $yearPage.RelPermalink }}" class="edition-card{{ if eq (string $y) $latest }} featured{{ end }}" style="text-decoration:none;color:var(--ink);">
