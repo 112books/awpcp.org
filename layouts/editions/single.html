@@ -27,7 +27,7 @@
 </section>
 
 {{ $cameras := .RegularPagesRecursive }}
-{{ if $cameras }}
+{{ if and $cameras (not .Params.noCameras) }}
 <section class="section section-alt">
   <div class="section-inner">
     <h2>{{ i18n "all_cameras" }}</h2>
