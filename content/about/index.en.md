@@ -8,7 +8,9 @@ aliases:
 
 > 🕯️ We dedicate this first AWPCP.org edition to *sensei* **Eric Renner** — a great promoter of pinhole photography around the world. Visit his amazing work at [ericrennerphoto.com](http://ericrennerphoto.com) — R.I.P.
 
-A.W.P.C.P. — **Around the World's Pinhole Crazy People** — is a non-profit association founded in April 2020 by Alfonso de Castro and Joan Linux, united by their passion for pinhole photography. The project is currently directed by [Joan Linux](https://about.pocallum.cat) with the support of [Nau Bostik](https://naubostik.com).
+A.W.P.C.P. — **Around the World's Pinhole Crazy People** — is a non-profit association founded in April 2020 by Alfonso de Castro and Joan Linux, united by their passion for pinhole photography. Both had already prepared and actively participated in organising and spreading this photographic technique at [Can Basté](https://canbaste.cat) in previous years.
+
+The project and website are currently coordinated by [Joan Linux](https://about.linuxbcn.cat) through his photography training project [Llumàtics](https://llumatics.com) with the support of [La Nau Bostik](https://naubostik.com) in the Sagrera neighbourhood.
 
 Our mission is to organise the [Worldwide Pinhole Photography Day](https://pinholeday.org) in Barcelona every year, and to promote the oldest photographic technique — *camera obscura* — through workshops, exhibitions, and community events.
 
@@ -20,5 +22,9 @@ Since 2020 we have gathered pinhole enthusiasts from around the world, building 
 - **Creative imperfection**: the hole doesn't have to be round
 - **Community**: we share, teach, and learn together
 - **Sustainability**: we build from reclaimed materials
+
+### Get involved
+
+We are open to help, contributions, patronage and sponsorships to spread and advocate for primitive analog photography — *pinhole* photography.
 
 Join us for the next edition — bring a cardboard box, a tin can, or just your curiosity.

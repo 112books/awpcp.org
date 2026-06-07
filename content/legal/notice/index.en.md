@@ -11,7 +11,7 @@ aliases:
 **A.W.P.C.P. (Around the World's Pinhole Crazy People)**  
 Registered address: [Nau Bostik](https://naubostik.com), Barcelona  
 Email: [info@awpcp.org](mailto:info@awpcp.org)  
-Project director: [Joan Linux](https://about.pocallum.cat)
+Project director: [Joan Linux](https://about.linuxbcn.cat)
 
 ## Terms of use
 
