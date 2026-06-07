@@ -4,6 +4,7 @@ layout: "single"
 description: "Worldwide Pinhole Photography Day 2017 — April 30, 2017"
 date: "2017-04-30"
 venue: "Nau Bostik"
+poster: "https://linuxbcn.org/wp-content/uploads/2019/05/hd110_-_018_baixa.jpg"
 ---
 
 Worldwide Pinhole Photography Day 2017 at Nau Bostik, as part of the **LomoTaller** project in collaboration with Lomography.com, organized by Joan Linux from Lomography Embassy Barcelona.
