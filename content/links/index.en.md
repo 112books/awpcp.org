@@ -81,6 +81,7 @@ description: "Pinhole photography resource guide — links, tutorials, DIY manua
 - [Colectivo Sinóptico](http://colectivosinoptico.blogspot.com/) — Uruguayan pinhole photography collective and workshops
 - [Colectivo Espacio Común](https://colectivoespaciocomun.com/) — Mexico-Argentina collective with international pinhole exhibition
 - [Fotolateras](https://www.fotolateras.com/) — Spanish pinhole photographers (Lola Barcia & Marinela Forcadell)
+- [Oaxaca Estenopeica](https://www.instagram.com/oaxacaestenopeica/) — Pinhole photography collective in Oaxaca, Mexico
 - [Vermont Center for Photography](https://vcphoto.org/) — Photo center with pinhole workshops in Brattleboro, USA
 
 {{% /accordion %}}

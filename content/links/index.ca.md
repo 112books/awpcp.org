@@ -81,6 +81,7 @@ description: "Guia de recursos per a la fotografia estenopeica — enllaços, tu
 - [Colectivo Sinóptico](http://colectivosinoptico.blogspot.com/) — Col·lectiu uruguaià de fotografia estenopeica i tallers
 - [Colectivo Espacio Común](https://colectivoespaciocomun.com/) — Col·lectiu Mèxic-Argentina amb mostra internacional d'estenop
 - [Fotolateras](https://www.fotolateras.com/) — Fotògrafes estenopeiques espanyoles (Lola Barcia i Marinela Forcadell)
+- [Oaxaca Estenopeica](https://www.instagram.com/oaxacaestenopeica/) — Col·lectiu de fotografia estenopeica a Oaxaca, Mèxic
 - [Vermont Center for Photography](https://vcphoto.org/) — Centre fotogràfic amb tallers d'estenop a Brattleboro, EUA
 
 {{% /accordion %}}
