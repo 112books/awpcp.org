@@ -2,26 +2,29 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://*.goatcounter.com; frame-src https:; base-uri 'self'; form-action 'self';">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ .Site.Title }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }} — Worldwide Pinhole Photography Day{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ or .Description .Summary .Site.Params.description }}">
   <link rel="icon" href="{{ "favicon.ico" | relURL }}">
   <link rel="icon" href="{{ "img/awpcp-favicon.png" | relURL }}" type="image/png">
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}">
   <link rel="canonical" href="{{ .Permalink }}">
 
+  {{ $ogImg := or .Params.ogImage .Params.poster (index (.Params.images | default (slice "")) 0) .Site.Params.ogImage }}
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{ or .Description .Summary .Site.Params.description }}">
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{ or .Params.ogImage .Site.Params.ogImage | absURL }}">
+  <meta property="og:image" content="{{ $ogImg | absURL }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:locale" content="{{ .Site.LanguageCode }}">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ or .Description .Summary .Site.Params.description }}">
-  <meta name="twitter:image" content="{{ or .Params.ogImage .Site.Params.ogImage | absURL }}">
+  <meta name="twitter:image" content="{{ $ogImg | absURL }}">
 
   {{ if .IsTranslated }}
     {{ range .AllTranslations }}
@@ -32,15 +35,16 @@
     {{ end }}{{ end }}
   {{ end }}
 
-  {{ if eq .Kind "404" }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  {{ if or (eq .Kind "404") (eq .Kind "taxonomy") (eq .Kind "term") }}<meta name="robots" content="noindex, nofollow">{{ end }}
 
+  {{ if .IsHome }}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "A.W.P.C.P.",
-    "description": "Around the World's Pinhole Crazy People",
-    "url": "{{ .Permalink }}",
+    "description": "Around the World Pinhole Camera Project",
+    "url": "{{ .Site.BaseURL }}",
     "logo": "{{ .Site.Params.ogImage | absURL }}",
     "email": "{{ .Site.Params.email }}",
     "sameAs": [
@@ -49,20 +53,22 @@
     ]
   }
   </script>
+  {{ end }}
 
   {{ $css := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 
   {{ if .Site.Params.goatcounter }}
   <script data-goatcounter="https://{{ .Site.Params.goatcounter }}.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+          async src="https://gc.zgo.at/count.js"></script>
   {{ end }}
 </head>
 <body>
+  <a class="skip-link" href="#main">{{ i18n "skip_to_content" | default "Saltar al contingut" }}</a>
   <header class="site-header">
-    <nav class="nav">
+    <nav class="nav" aria-label="{{ i18n "main_navigation" | default "Navegació principal" }}">
       <a href="{{ "" | relLangURL }}" class="nav-brand">
-        <img src="{{ "img/awpcp-logo.png" | relURL }}" alt="A.W.P.C.P." class="nav-logo">
+        <img src="{{ "img/awpcp-logo.png" | relURL }}" alt="" class="nav-logo">
         A.W.P.C.P.
       </a>
       <div class="nav-links">
@@ -82,7 +88,7 @@
     </nav>
   </header>
 
-  <main>
+  <main id="main" tabindex="-1">
     {{ block "main" . }}{{ end }}
   </main>
 
@@ -104,24 +110,24 @@
           <h5>{{ i18n "footer_social" }}</h5>
           <div class="footer-social">
             <a href="{{ .Site.Params.instagram }}" target="_blank" rel="noopener" aria-label="Instagram">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
             </a>
             <a href="{{ .Site.Params.facebook }}" target="_blank" rel="noopener" aria-label="Facebook">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
             </a>
             <a href="mailto:{{ .Site.Params.email }}" aria-label="Email">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
             </a>
           </div>
         </div>
         <div class="footer-col">
           <h5>Apps</h5>
           <a href="https://linuxbcn.com/ca/projectes/app-estenop/" target="_blank" rel="noopener">
-            <img src="https://linuxbcn.com/ca/projectes/app-estenop/estenop.png" alt="Estenop" style="height:24px;width:auto;vertical-align:middle;margin-right:6px;">
+            <img src="https://linuxbcn.com/ca/projectes/app-estenop/estenop.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:6px;">
             Estenop
           </a>
           <a href="https://linuxbcn.com/ca/projectes/app-positivador/" target="_blank" rel="noopener">
-            <img src="https://linuxbcn.com/ca/projectes/app-positivador/positivitzador.png" alt="Positivador" style="height:24px;width:auto;vertical-align:middle;margin-right:6px;">
+            <img src="https://linuxbcn.com/ca/projectes/app-positivador/positivitzador.png" alt="" style="height:24px;width:auto;vertical-align:middle;margin-right:6px;">
             Positivador
           </a>
         </div>
@@ -133,33 +139,33 @@
     </div>
   </footer>
 
-  <nav class="mobile-tab-bar">
+  <nav class="mobile-tab-bar" aria-label="{{ i18n "mobile_navigation" | default "Navegació mòbil" }}">
     <a href="{{ "" | relLangURL }}">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
       <span>{{ i18n "home" }}</span>
     </a>
     <a href="{{ "about" | relLangURL }}">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
       <span>{{ i18n "about" }}</span>
     </a>
     <a href="{{ "editions" | relLangURL }}">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>
       <span>{{ i18n "editions" }}</span>
     </a>
     <a href="{{ "links" | relLangURL }}">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
       <span>{{ i18n "links" }}</span>
     </a>
     <a href="{{ "contact" | relLangURL }}">
-      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
       <span>{{ i18n "contact" }}</span>
     </a>
   </nav>
 
-  <div id="lightbox" class="lightbox">
-    <button class="lightbox-close" aria-label="Close">&times;</button>
-    <button class="lightbox-nav lightbox-prev" aria-label="Previous">&#10094;</button>
-    <button class="lightbox-nav lightbox-next" aria-label="Next">&#10095;</button>
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="{{ i18n "image_viewer" | default "Visor d'imatges" }}">
+    <button class="lightbox-close" aria-label="{{ i18n "close" | default "Tancar" }}"><span aria-hidden="true">&times;</span></button>
+    <button class="lightbox-nav lightbox-prev" aria-label="{{ i18n "previous" | default "Anterior" }}"><span aria-hidden="true">&#10094;</span></button>
+    <button class="lightbox-nav lightbox-next" aria-label="{{ i18n "next" | default "Següent" }}"><span aria-hidden="true">&#10095;</span></button>
     <div class="lightbox-content">
       <img class="lightbox-img" src="" alt="">
     </div>
@@ -175,30 +181,38 @@
       var next = lb.querySelector('.lightbox-next');
       var dots = lb.querySelector('.lightbox-dots');
       var images = [];
+      var alts = [];
       var current = 0;
+      var previousActive;
 
       function open(index) {
+        previousActive = document.activeElement;
         current = index;
         img.src = images[current];
+        img.alt = alts[current] || '';
         lb.classList.add('open');
         renderDots();
         document.body.style.overflow = 'hidden';
+        close.focus();
       }
 
       function closeLB() {
         lb.classList.remove('open');
         document.body.style.overflow = '';
+        if (previousActive) previousActive.focus();
       }
 
       function prevImg() {
         current = (current - 1 + images.length) % images.length;
         img.src = images[current];
+        img.alt = alts[current] || '';
         renderDots();
       }
 
       function nextImg() {
         current = (current + 1) % images.length;
         img.src = images[current];
+        img.alt = alts[current] || '';
         renderDots();
       }
 
@@ -213,14 +227,15 @@
         }
       }
 
-      // Collect images from galleries
       var galleries = document.querySelectorAll('.camera-detail .gallery');
       galleries.forEach(function(gallery) {
         var links = gallery.querySelectorAll('a');
         links.forEach(function(link, idx) {
           var href = link.getAttribute('href');
+          var imgEl = link.querySelector('img');
           if (href) {
             images.push(href);
+            alts.push(imgEl ? imgEl.getAttribute('alt') || '' : '');
             link.addEventListener('click', function(e) {
               e.preventDefault();
               open(idx);

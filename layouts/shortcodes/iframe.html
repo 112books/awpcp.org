@@ -1,1 +1,1 @@
-<iframe src="{{ .Get 0 }}" width="{{ .Get 1 }}" height="{{ .Get 2 }}" style="border:0; max-width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="{{ .Get 0 | safeURL }}" width="{{ .Get 1 }}" height="{{ .Get 2 }}" title="{{ .Get 3 | default "Contingut incrustat" }}" style="border:0; max-width:100%;" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" sandbox="allow-scripts allow-same-origin allow-popups" allow="fullscreen"></iframe>

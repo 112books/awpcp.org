@@ -1,7 +1,7 @@
 :root {
   --ink: #1a1a1a;
   --ink-2: #555;
-  --ink-3: #999;
+  --ink-3: #6a6a6a;
   --bg: #fff;
   --bg-alt: #f7f6f3;
   --border: #e5e3db;
@@ -22,6 +22,24 @@ body {
 }
 a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 1px; }
 a:hover { color: var(--accent-alt); }
+:where(a, button, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+.btn:focus-visible { outline-color: var(--accent-alt); }
+.lightbox-close:focus-visible,
+.lightbox-nav:focus-visible,
+.lightbox-dot:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.camera-card:focus-visible,
+.edition-card:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+.skip-link {
+  position: absolute; left: -9999px; top: 0.5rem;
+  padding: 0.5rem 1rem; background: var(--ink); color: #fff;
+  z-index: 200; border-radius: 4px; font-family: var(--sans); font-size: 0.85rem;
+  text-decoration: none;
+}
+.skip-link:focus { left: 1rem; }
 img { max-width: 100%; height: auto; }
 
 .site-header {
@@ -46,7 +64,7 @@ img { max-width: 100%; height: auto; }
 .lang-switch {
   font-family: var(--mono); font-size: 0.65rem; text-transform: uppercase;
   padding: 0.15rem 0.35rem; border: 1px solid var(--border);
-  border-radius: 3px; opacity: 0.7; text-decoration: none; color: var(--ink-2);
+  border-radius: 3px; text-decoration: none; color: var(--ink-2);
   letter-spacing: 0.03em;
 }
 .lang-switch:hover { opacity: 1; color: var(--ink); background: var(--bg-alt); }
@@ -190,9 +208,9 @@ img { max-width: 100%; height: auto; }
   margin-top: 0.3rem; display: inline-block; padding: 0.15rem 0.5rem;
   border-radius: 3px; letter-spacing: 0.03em;
 }
-.edition-card .status.active { background: #e8f5e9; color: #2d7a2d; }
+.edition-card .status.active { background: #e8f5e9; color: #1f5f1f; }
 .edition-card .status.past { background: var(--bg-alt); color: var(--ink-3); }
-.edition-card .status.future { background: #fff8e1; color: #b8860b; }
+.edition-card .status.future { background: #fff8e1; color: #7a5b07; }
 
 .countdown-section {
   text-align: center; padding: 4rem 1.5rem;
@@ -370,6 +388,52 @@ img { max-width: 100%; height: auto; }
   .camera-gallery { grid-template-columns: 1fr; }
   .hero h1 { font-size: 2rem; }
   .editions-list { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* 404 */
+.not-found {
+  min-height: 70vh; display: flex; align-items: center; justify-content: center;
+  padding: 4rem 1.5rem; text-align: center;
+}
+.not-found-inner { max-width: 520px; }
+.pinhole-aperture {
+  width: 100px; height: 100px; margin: 0 auto 2rem;
+  position: relative; display: flex; align-items: center; justify-content: center;
+}
+.pinhole-ring {
+  position: absolute; inset: 0; border-radius: 50%;
+  background: radial-gradient(circle at center, transparent 18%, var(--ink) 22%, var(--ink) 44%, transparent 48%);
+  animation: pinhole-spin 8s linear infinite;
+}
+.pinhole-ring::before {
+  content: ''; position: absolute; inset: -6px; border-radius: 50%;
+  border: 1px solid var(--border);
+}
+.pinhole-dot {
+  width: 6px; height: 6px; border-radius: 50%;
+  background: var(--ink); position: relative; z-index: 1;
+}
+@keyframes pinhole-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.not-found-code {
+  font-family: var(--mono); font-size: 0.75rem; letter-spacing: 0.15em;
+  color: var(--ink-3); text-transform: uppercase; margin-bottom: 0.5rem;
+}
+.not-found h1 {
+  font-family: var(--serif); font-size: 2rem; font-weight: 700;
+  margin-bottom: 1rem; letter-spacing: -0.02em;
+}
+.not-found-desc {
+  color: var(--ink-2); font-size: 1rem; line-height: 1.7;
+  margin-bottom: 2rem; font-family: var(--sans);
+}
+.not-found-links {
+  display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; align-items: center;
+}
+.not-found-links a:not(.btn) {
+  font-family: var(--sans); font-size: 0.85rem; color: var(--ink-2);
 }
 
 .accordion { border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 0.6rem; overflow: hidden; background: var(--bg); }

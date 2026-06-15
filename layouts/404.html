@@ -1,9 +1,19 @@
 {{ define "main" }}
-<article class="section" style="text-align:center;padding:6rem 1rem">
-  <div class="section-inner prose">
-    <h1>404</h1>
-    <p style="font-size:1.3rem;margin:1.5rem 0">{{ i18n "page_not_found" }}</p>
-    <p><a href="{{ "" | relLangURL }}">{{ i18n "back_home" }}</a></p>
+<section class="not-found">
+  <div class="not-found-inner">
+    <div class="pinhole-aperture" aria-hidden="true">
+      <div class="pinhole-ring"></div>
+      <div class="pinhole-dot"></div>
+    </div>
+    <p class="not-found-code">404</p>
+    <h1>{{ i18n "page_not_found" | default "Pàgina no trobada" }}</h1>
+    <p class="not-found-desc">{{ i18n "not_found_desc" | default "La llum no ha passat per aquí. Potser la URL ha canviat o la pàgina ja no existeix." }}</p>
+    <nav class="not-found-links" aria-label="{{ i18n "main_navigation" | default "Navegació principal" }}">
+      <a href="{{ "" | relLangURL }}" class="btn">{{ i18n "back_home" | default "Inici" }}</a>
+      <a href="{{ "editions" | relLangURL }}">{{ i18n "editions" | default "Edicions" }}</a>
+      <a href="{{ "about" | relLangURL }}">{{ i18n "about" | default "About" }}</a>
+      <a href="{{ "contact" | relLangURL }}">{{ i18n "contact" | default "Contacte" }}</a>
+    </nav>
   </div>
-</article>
+</section>
 {{ end }}

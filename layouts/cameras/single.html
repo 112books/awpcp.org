@@ -3,7 +3,7 @@
   <div class="camera-layout">
     {{ if .Params.images }}
     <div class="camera-photo">
-      <a href="{{ index .Params.images 0 }}" target="_blank"><img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="lazy"></a>
+      <a href="{{ index .Params.images 0 }}" target="_blank" rel="noopener"><img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" loading="eager"></a>
     </div>
     {{ end }}
     <div class="camera-info">
@@ -21,19 +21,19 @@
     {{ $id := index (findRE `vimeo\.com/(\d+)` .) 0 }}
     {{ if $id }}
     {{ $vid := replaceRE `vimeo\.com/` "" $id }}
-    <iframe src="https://player.vimeo.com/video/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/{{ $vid }}" title="{{ $.Title }} — vídeo" frameborder="0" allowfullscreen></iframe>
     {{ end }}
     {{ else if in . "youtu.be/" }}
     {{ $id := index (findRE `youtu\.be/([a-zA-Z0-9_-]+)` .) 0 }}
     {{ if $id }}
     {{ $vid := replaceRE `youtu\.be/` "" $id }}
-    <iframe src="https://www.youtube.com/embed/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/{{ $vid }}" title="{{ $.Title }} — vídeo" frameborder="0" allowfullscreen></iframe>
     {{ end }}
     {{ else if in . "youtube.com/" }}
     {{ $id := index (findRE `youtube\.com/watch\?v=([a-zA-Z0-9_-]+)` .) 0 }}
     {{ if $id }}
     {{ $vid := replaceRE `youtube\.com/watch\?v=` "" $id }}
-    <iframe src="https://www.youtube.com/embed/{{ $vid }}" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/{{ $vid }}" title="{{ $.Title }} — vídeo" frameborder="0" allowfullscreen></iframe>
     {{ end }}
     {{ else }}
     <p>📹 <a href="{{ . }}" target="_blank" rel="noopener">{{ i18n "watch_video" }}</a></p>
@@ -45,8 +45,8 @@
   <div class="camera-gallery-bottom">
     <h3>{{ i18n "gallery" }}</h3>
     <div class="gallery">
-      {{ range .Params.images }}
-      <a href="{{ . }}" target="_blank" rel="noopener"><img src="{{ . }}" alt="{{ $.Title }} gallery" loading="lazy"></a>
+      {{ range $i, $img := .Params.images }}
+      <a href="{{ $img }}" target="_blank" rel="noopener"><img src="{{ $img }}" alt="{{ $.Title }} — foto {{ add $i 1 }}" loading="lazy"></a>
       {{ end }}
     </div>
   </div>

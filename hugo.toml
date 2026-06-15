@@ -3,7 +3,7 @@ title = "A.W.P.C.P."
 locale = "ca"
 DefaultContentLanguage = "ca"
 disableLanguages = []
-enableGitInfo = false
+enableGitInfo = true
 
 [params]
   description = "Around the World's Pinhole Crazy People — Worldwide Pinhole Photography Day"

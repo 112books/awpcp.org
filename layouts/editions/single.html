@@ -3,6 +3,32 @@
 {{ $status := "past" }}
 {{ if eq $year (string .Site.Params.latestEdition) }}{{ $status = "active" }}{{ else if gt (int $year) (int .Site.Params.latestEdition) }}{{ $status = "future" }}{{ end }}
 
+{{ with .Params.date }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ $.Title }}",
+  "startDate": "{{ . | dateFormat "2006-01-02" }}",
+  "location": {
+    "@type": "Place",
+    "name": "{{ or $.Params.venue "Barcelona" }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona",
+      "addressCountry": "ES"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "A.W.P.C.P.",
+    "url": "https://awpcp.org/"
+  },
+  "url": "{{ $.Permalink }}"
+}
+</script>
+{{ end }}
+
 <section class="edition-hero">
   <div>
     {{ if eq $status "active" }}<span class="edition-badge">✓ {{ i18n "latest_edition" }}</span>{{ end }}
@@ -14,7 +40,7 @@
 </section>
 
 <section class="edition-body prose">
-  {{ with .Params.poster }}<div class="edition-poster"><img src="{{ . | absURL }}" alt="Poster" loading="lazy"></div>{{ end }}
+  {{ with .Params.poster }}<div class="edition-poster"><img src="{{ . | absURL }}" alt="{{ $.Title }}" loading="eager" fetchpriority="high"></div>{{ end }}
   {{ .Content }}
 
   {{ if .Params.sponsors }}

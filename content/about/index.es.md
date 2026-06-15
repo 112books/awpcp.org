@@ -8,7 +8,9 @@ aliases:
 
 > 🕯️ Dedicamos esta primera edición de AWPCP.org al *sensey* **Eric Renner** — un gran impulsor de la fotografía estenopeica en todo el mundo. Visita su increíble trabajo en [ericrennerphoto.com](http://ericrennerphoto.com) — R.I.P.
 
-A.W.P.C.P. — **Around the World's Pinhole Crazy People** — es una asociación sin ánimo de lucro creada en abril de 2020 por Alfonso de Castro y Joan Linux, unidos por la pasión por la fotografía estenopeica. Ambos ya habían preparado y participado activamente en la organización y difusión de esta técnica fotográfica en [Can Basté](https://canbaste.cat) durante los años anteriores.
+**A.W.P.C.P.** significa **Around the World Pinhole Camera Project** — un proyecto colectivo internacional de fotografía estenopeica (*pinhole*) donde participantes de todo el mundo usan cámaras estenopeicas para crear imágenes y compartirlas dentro de una experiencia global compartida.
+
+El proyecto nace como asociación sin ánimo de lucro creada en abril de 2020 por Alfonso de Castro y Joan Linux, unidos por la pasión por la fotografía estenopeica. Ambos ya habían preparado y participado activamente en la organización y difusión de esta técnica fotográfica en [Can Basté](https://canbaste.cat) durante los años anteriores.
 
 Actualmente el proyecto y la web los coordina [Joan Linux](https://about.linuxbcn.cat) desde su proyecto de formación fotográfica [Llumàtics](https://llumatics.com) con el apoyo de [La Nau Bostik](https://naubostik.com) en el barrio de la Sagrera.
 

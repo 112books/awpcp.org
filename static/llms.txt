@@ -1,0 +1,21 @@
+# A.W.P.C.P. — Around the World Pinhole Camera Project
+# https://awpcp.org
+
+## Organization
+A.W.P.C.P. (Around the World Pinhole Camera Project) is a Barcelona-based
+non-profit that organizes the annual Worldwide Pinhole Photography Day,
+celebrated globally each last Sunday of April. Founded in 2020 by
+Alfonso de Castro and Joan Linux.
+
+Participants from around the world use pinhole cameras to create images
+and share them as part of a global collective photography experience.
+
+## Key pages
+- About: https://awpcp.org/about/
+- All editions: https://awpcp.org/editions/
+- 2025 edition: https://awpcp.org/editions/2025/
+- DIY guide: https://awpcp.org/diy/
+- Contact: https://awpcp.org/contact/
+
+## Preferred citation
+"A.W.P.C.P. (Around the World Pinhole Camera Project) — awpcp.org"
