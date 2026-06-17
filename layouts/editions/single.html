@@ -4,23 +4,46 @@
 {{ if eq $year (string .Site.Params.latestEdition) }}{{ $status = "active" }}{{ else if gt (int $year) (int .Site.Params.latestEdition) }}{{ $status = "future" }}{{ end }}
 
 {{ with .Params.date }}
-{{ $schema := dict
-  "@context" "https://schema.org"
-  "@type" "Event"
-  "name" $.Title
-  "startDate" (. | dateFormat "2006-01-02")
-  "endDate" (or $.Params.endDate (. | dateFormat "2006-01-02"))
-  "description" $.Description
-  "image" (or $.Params.poster $.Site.Params.ogImage | absURL)
-  "eventStatus" "https://schema.org/EventScheduled"
-  "eventAttendanceMode" "https://schema.org/OfflineEventAttendanceMode"
-  "location" (dict "@type" "Place" "name" (or $.Params.venue "Barcelona") "address" (dict "@type" "PostalAddress" "addressLocality" "Barcelona" "addressCountry" "ES"))
-  "organizer" (dict "@type" "Organization" "name" "A.W.P.C.P." "url" "https://awpcp.org/")
-  "performer" (dict "@type" "Organization" "name" "A.W.P.C.P." "url" "https://awpcp.org/")
-  "offers" (dict "@type" "Offer" "price" "0" "priceCurrency" "EUR" "availability" "https://schema.org/InStock" "url" $.Permalink)
-  "url" $.Permalink
-}}
-<script type="application/ld+json">{{ $schema | jsonify | safeHTML }}</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "{{ $.Title }}",
+  "startDate": "{{ . | dateFormat "2006-01-02" }}",
+  "endDate": "{{ or $.Params.endDate (. | dateFormat "2006-01-02") }}",
+  "description": "{{ $.Description | replaceRE `"` `\"` }}",
+  "image": "{{ or $.Params.poster $.Site.Params.ogImage | absURL }}",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+    "@type": "Place",
+    "name": "{{ or $.Params.venue "Barcelona" }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Barcelona",
+      "addressCountry": "ES"
+    }
+  },
+  "organizer": {
+    "@type": "Organization",
+    "name": "A.W.P.C.P.",
+    "url": "https://awpcp.org/"
+  },
+  "performer": {
+    "@type": "Organization",
+    "name": "A.W.P.C.P.",
+    "url": "https://awpcp.org/"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ $.Permalink }}"
+  },
+  "url": "{{ $.Permalink }}"
+}
+</script>
 {{ end }}
 
 <section class="edition-hero">
