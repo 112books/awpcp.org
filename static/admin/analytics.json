@@ -1,10 +1,10 @@
 {
-  "generated": "2026-06-20T22:06:09.366960Z",
+  "generated": "2026-06-21T00:05:35.381820Z",
   "period": {
-    "start": "2025-06-20",
-    "end": "2026-06-20"
+    "start": "2025-06-21",
+    "end": "2026-06-21"
   },
-  "total": 57,
+  "total": 58,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -46,6 +46,10 @@
     {
       "date": "2026-06-19",
       "count": 2
+    },
+    {
+      "date": "2026-06-20",
+      "count": 1
     }
   ],
   "hits": [
@@ -76,6 +80,10 @@
     {
       "path": "/editions/2026",
       "count": 3
+    },
+    {
+      "path": "/caja-knubovetz-caja-k",
+      "count": 1
     },
     {
       "path": "/editions/2016",
@@ -143,7 +151,8 @@
     "404.html": 7,
     "editions": 23,
     "links": 7,
-    "about": 4
+    "about": 4,
+    "caja-knubovetz-caja-k": 1
   },
   "noticies_top": [],
   "festivals_top": [],
@@ -276,7 +285,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 4
+      "count": 5
     },
     {
       "name": "www.privacywall.org",
