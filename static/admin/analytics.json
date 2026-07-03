@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-02T23:05:52.366100Z",
+  "generated": "2026-07-03T02:54:25.929902Z",
   "period": {
-    "start": "2025-07-02",
-    "end": "2026-07-02"
+    "start": "2025-07-03",
+    "end": "2026-07-03"
   },
   "total": 82,
   "total_unique": 0,
@@ -213,7 +213,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 5
+      "count": 6
     }
   ],
   "systems": [
@@ -240,14 +240,14 @@
     {
       "name": "Linux",
       "id": "Linux",
-      "count": 7
+      "count": 8
     }
   ],
   "sizes": [
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 54
+      "count": 55
     },
     {
       "name": "phone",
@@ -269,7 +269,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 48
+      "count": 49
     },
     {
       "name": "Hong Kong",
