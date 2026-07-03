@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-03T17:24:55.845590Z",
+  "generated": "2026-07-03T19:21:00.289138Z",
   "period": {
     "start": "2025-07-03",
     "end": "2026-07-03"
@@ -208,7 +208,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Desconegut",
@@ -220,7 +220,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 44
+      "count": 45
     },
     {
       "name": "Android",
@@ -262,7 +262,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 1
+      "count": 2
     }
   ],
   "locations": [
@@ -319,6 +319,11 @@
     {
       "name": "Liechtenstein",
       "id": "LI",
+      "count": 1
+    },
+    {
+      "name": "Norway",
+      "id": "NO",
       "count": 1
     },
     {
