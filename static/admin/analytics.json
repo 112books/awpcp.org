@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-03T23:02:58.850488Z",
+  "generated": "2026-07-04T02:50:39.259409Z",
   "period": {
-    "start": "2025-07-03",
-    "end": "2026-07-03"
+    "start": "2025-07-04",
+    "end": "2026-07-04"
   },
-  "total": 82,
+  "total": 85,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -82,12 +82,16 @@
     {
       "date": "2026-07-02",
       "count": 3
+    },
+    {
+      "date": "2026-07-03",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 27
+      "count": 29
     },
     {
       "path": "/en/editions/2025",
@@ -95,7 +99,7 @@
     },
     {
       "path": "/404.html",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/editions/2026",
@@ -183,9 +187,9 @@
     "es": 1
   },
   "by_section": {
-    "inici": 31,
+    "inici": 33,
     "editions": 31,
-    "404.html": 8,
+    "404.html": 9,
     "links": 7,
     "about": 4,
     "caja-knubovetz-caja-k": 1
@@ -336,7 +340,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 20
+      "count": 22
     },
     {
       "name": "Google",
@@ -356,6 +360,11 @@
     {
       "name": "www.privacywall.org",
       "id": "www.privacywall.org",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
       "count": 1
     }
   ]
