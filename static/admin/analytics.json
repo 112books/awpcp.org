@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-05T20:13:16.156328Z",
+  "generated": "2026-07-05T22:01:01.544672Z",
   "period": {
     "start": "2025-07-05",
     "end": "2026-07-05"
@@ -273,73 +273,7 @@
       "count": 2
     }
   ],
-  "locations": [
-    {
-      "name": "Spain",
-      "id": "ES",
-      "count": 50
-    },
-    {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 7
-    },
-    {
-      "name": "Hong Kong",
-      "id": "HK",
-      "count": 7
-    },
-    {
-      "name": "United States",
-      "id": "US",
-      "count": 7
-    },
-    {
-      "name": "Canada",
-      "id": "CA",
-      "count": 5
-    },
-    {
-      "name": "Austria",
-      "id": "AT",
-      "count": 3
-    },
-    {
-      "name": "Germany",
-      "id": "DE",
-      "count": 3
-    },
-    {
-      "name": "Andorra",
-      "id": "AD",
-      "count": 1
-    },
-    {
-      "name": "United Arab Emirates",
-      "id": "AE",
-      "count": 1
-    },
-    {
-      "name": "India",
-      "id": "IN",
-      "count": 1
-    },
-    {
-      "name": "Liechtenstein",
-      "id": "LI",
-      "count": 1
-    },
-    {
-      "name": "Norway",
-      "id": "NO",
-      "count": 1
-    },
-    {
-      "name": "Singapore",
-      "id": "SG",
-      "count": 1
-    }
-  ],
+  "locations": [],
   "refs": [
     {
       "name": "Desconegut",
