@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-12T23:53:25.834838Z",
+  "generated": "2026-07-13T06:17:46.147152Z",
   "period": {
-    "start": "2025-07-12",
-    "end": "2026-07-12"
+    "start": "2025-07-13",
+    "end": "2026-07-13"
   },
-  "total": 100,
+  "total": 102,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -102,6 +102,10 @@
     {
       "date": "2026-07-10",
       "count": 8
+    },
+    {
+      "date": "2026-07-13",
+      "count": 2
     }
   ],
   "hits": [
@@ -111,7 +115,7 @@
     },
     {
       "path": "/en/editions/2025",
-      "count": 13
+      "count": 15
     },
     {
       "path": "/404.html",
@@ -203,12 +207,12 @@
     }
   ],
   "by_lang": {
-    "en": 25,
+    "en": 27,
     "es": 1
   },
   "by_section": {
     "inici": 37,
-    "editions": 37,
+    "editions": 39,
     "404.html": 11,
     "about": 6,
     "links": 8,
@@ -227,12 +231,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 71
+      "count": 72
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 23
+      "count": 24
     },
     {
       "name": "Desconegut",
@@ -244,7 +248,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Linux",
@@ -252,13 +256,13 @@
       "count": 17
     },
     {
-      "name": "Android",
-      "id": "Android",
-      "count": 13
-    },
-    {
       "name": "iOS",
       "id": "iOS",
+      "count": 14
+    },
+    {
+      "name": "Android",
+      "id": "Android",
       "count": 13
     },
     {
@@ -271,7 +275,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 65
+      "count": 67
     },
     {
       "name": "phone",
@@ -308,7 +312,7 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Hong Kong",
@@ -318,7 +322,7 @@
     {
       "name": "Austria",
       "id": "AT",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Germany",
