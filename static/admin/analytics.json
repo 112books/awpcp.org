@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-16T23:58:38.445585Z",
+  "generated": "2026-07-17T03:29:20.497215Z",
   "period": {
-    "start": "2025-07-16",
-    "end": "2026-07-16"
+    "start": "2025-07-17",
+    "end": "2026-07-17"
   },
-  "total": 102,
+  "total": 103,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -106,12 +106,16 @@
     {
       "date": "2026-07-13",
       "count": 2
+    },
+    {
+      "date": "2026-07-16",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 31
+      "count": 32
     },
     {
       "path": "/en/editions/2025",
@@ -211,7 +215,7 @@
     "es": 1
   },
   "by_section": {
-    "inici": 37,
+    "inici": 38,
     "editions": 39,
     "404.html": 11,
     "about": 6,
@@ -369,7 +373,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Google",
