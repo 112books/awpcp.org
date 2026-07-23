@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-22T23:02:21.491757Z",
+  "generated": "2026-07-23T02:39:27.356834Z",
   "period": {
-    "start": "2025-07-22",
-    "end": "2026-07-22"
+    "start": "2025-07-23",
+    "end": "2026-07-23"
   },
-  "total": 106,
+  "total": 108,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -118,6 +118,10 @@
     {
       "date": "2026-07-19",
       "count": 1
+    },
+    {
+      "date": "2026-07-22",
+      "count": 2
     }
   ],
   "hits": [
@@ -127,7 +131,7 @@
     },
     {
       "path": "/en/editions/2025",
-      "count": 15
+      "count": 17
     },
     {
       "path": "/404.html",
@@ -219,12 +223,12 @@
     }
   ],
   "by_lang": {
-    "en": 27,
+    "en": 29,
     "es": 1
   },
   "by_section": {
     "inici": 40,
-    "editions": 39,
+    "editions": 41,
     "404.html": 12,
     "about": 6,
     "links": 8,
