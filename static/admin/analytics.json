@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-24T23:02:10.076839Z",
+  "generated": "2026-07-25T02:33:58.841532Z",
   "period": {
-    "start": "2025-07-24",
-    "end": "2026-07-24"
+    "start": "2025-07-25",
+    "end": "2026-07-25"
   },
-  "total": 108,
+  "total": 112,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -122,12 +122,16 @@
     {
       "date": "2026-07-22",
       "count": 2
+    },
+    {
+      "date": "2026-07-24",
+      "count": 4
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/en/editions/2025",
@@ -135,7 +139,7 @@
     },
     {
       "path": "/404.html",
-      "count": 12
+      "count": 15
     },
     {
       "path": "/en",
@@ -227,9 +231,9 @@
     "es": 1
   },
   "by_section": {
-    "inici": 40,
+    "inici": 41,
     "editions": 41,
-    "404.html": 12,
+    "404.html": 15,
     "about": 6,
     "links": 8,
     "caja-knubovetz-caja-k": 1
@@ -390,7 +394,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 25
+      "count": 29
     },
     {
       "name": "Google",
