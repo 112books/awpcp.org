@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-29T00:01:08.499867Z",
+  "generated": "2026-07-29T04:10:31.033503Z",
   "period": {
     "start": "2025-07-29",
     "end": "2026-07-29"
@@ -251,12 +251,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 80
+      "count": 83
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 26
+      "count": 28
     },
     {
       "name": "Desconegut",
@@ -268,7 +268,17 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 49
+      "count": 50
+    },
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 18
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 18
     },
     {
       "name": "Linux",
@@ -276,31 +286,21 @@
       "count": 17
     },
     {
-      "name": "Windows",
-      "id": "Windows",
-      "count": 17
-    },
-    {
-      "name": "iOS",
-      "id": "iOS",
-      "count": 16
-    },
-    {
       "name": "Android",
       "id": "Android",
-      "count": 13
+      "count": 14
     }
   ],
   "sizes": [
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 72
+      "count": 73
     },
     {
       "name": "phone",
       "id": "phone",
-      "count": 22
+      "count": 25
     },
     {
       "name": "desktophd",
@@ -310,7 +310,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 5
+      "count": 6
     }
   ],
   "locations": [
@@ -322,7 +322,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 17
+      "count": 19
     },
     {
       "name": "Canada",
@@ -332,7 +332,7 @@
     {
       "name": "United Kingdom",
       "id": "GB",
-      "count": 9
+      "count": 10
     },
     {
       "name": "Hong Kong",
@@ -365,6 +365,11 @@
       "count": 1
     },
     {
+      "name": "Finland",
+      "id": "FI",
+      "count": 1
+    },
+    {
       "name": "India",
       "id": "IN",
       "count": 1
@@ -380,13 +385,8 @@
       "count": 1
     },
     {
-      "name": "Seychelles",
-      "id": "SC",
-      "count": 1
-    },
-    {
-      "name": "Singapore",
-      "id": "SG",
+      "name": "Panama",
+      "id": "PA",
       "count": 1
     }
   ],
