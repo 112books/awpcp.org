@@ -1,10 +1,10 @@
 {
-  "generated": "2026-07-29T23:07:11.104062Z",
+  "generated": "2026-07-30T02:20:27.294030Z",
   "period": {
-    "start": "2025-07-29",
-    "end": "2026-07-29"
+    "start": "2025-07-30",
+    "end": "2026-07-30"
   },
-  "total": 112,
+  "total": 120,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -126,6 +126,10 @@
     {
       "date": "2026-07-24",
       "count": 4
+    },
+    {
+      "date": "2026-07-29",
+      "count": 8
     }
   ],
   "hits": [
@@ -134,12 +138,12 @@
       "count": 35
     },
     {
-      "path": "/en/editions/2025",
-      "count": 17
+      "path": "/404.html",
+      "count": 22
     },
     {
-      "path": "/404.html",
-      "count": 15
+      "path": "/en/editions/2025",
+      "count": 18
     },
     {
       "path": "/en",
@@ -227,13 +231,13 @@
     }
   ],
   "by_lang": {
-    "en": 29,
+    "en": 30,
     "es": 1
   },
   "by_section": {
     "inici": 41,
-    "editions": 41,
-    "404.html": 15,
+    "404.html": 22,
+    "editions": 42,
     "about": 6,
     "links": 8,
     "caja-knubovetz-caja-k": 1
@@ -394,7 +398,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 29
+      "count": 35
     },
     {
       "name": "Google",
@@ -419,6 +423,11 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "www.awpcp.org",
+      "id": "www.awpcp.org",
       "count": 1
     }
   ]
