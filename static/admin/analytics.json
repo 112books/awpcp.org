@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-01T23:56:48.412163Z",
+  "generated": "2026-08-02T03:17:32.725918Z",
   "period": {
-    "start": "2025-08-01",
-    "end": "2026-08-01"
+    "start": "2025-08-02",
+    "end": "2026-08-02"
   },
-  "total": 132,
+  "total": 133,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -134,6 +134,10 @@
     {
       "date": "2026-07-30",
       "count": 12
+    },
+    {
+      "date": "2026-08-01",
+      "count": 1
     }
   ],
   "hits": [
@@ -147,7 +151,7 @@
     },
     {
       "path": "/en/editions/2025",
-      "count": 20
+      "count": 21
     },
     {
       "path": "/en",
@@ -235,13 +239,13 @@
     }
   ],
   "by_lang": {
-    "en": 32,
+    "en": 33,
     "es": 1
   },
   "by_section": {
     "inici": 51,
     "404.html": 22,
-    "editions": 44,
+    "editions": 45,
     "about": 6,
     "links": 8,
     "caja-knubovetz-caja-k": 1
