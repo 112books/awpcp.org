@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-03T21:01:09.329097Z",
+  "generated": "2026-08-04T00:13:27.431078Z",
   "period": {
-    "start": "2025-08-03",
-    "end": "2026-08-03"
+    "start": "2025-08-04",
+    "end": "2026-08-04"
   },
-  "total": 133,
+  "total": 134,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -138,6 +138,10 @@
     {
       "date": "2026-08-01",
       "count": 1
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1
     }
   ],
   "hits": [
@@ -147,7 +151,7 @@
     },
     {
       "path": "/404.html",
-      "count": 22
+      "count": 23
     },
     {
       "path": "/en/editions/2025",
@@ -244,7 +248,7 @@
   },
   "by_section": {
     "inici": 51,
-    "404.html": 22,
+    "404.html": 23,
     "editions": 45,
     "about": 6,
     "links": 8,
@@ -411,7 +415,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 8
+      "count": 9
     },
     {
       "name": "ig",
