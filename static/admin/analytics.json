@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T14:26:00.553263Z",
+  "generated": "2026-08-17T15:23:38.870840Z",
   "period": {
     "start": "2025-08-17",
     "end": "2026-08-17"
@@ -275,154 +275,10 @@
     "wizard-s4": 0,
     "wizard-sent": 0
   },
-  "browsers": [
-    {
-      "name": "Chrome",
-      "id": "Chrome",
-      "count": 105
-    },
-    {
-      "name": "Safari",
-      "id": "Safari",
-      "count": 31
-    },
-    {
-      "name": "Desconegut",
-      "id": "Desconegut",
-      "count": 6
-    },
-    {
-      "name": "Edge",
-      "id": "Edge",
-      "count": 1
-    }
-  ],
-  "systems": [
-    {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 61
-    },
-    {
-      "name": "Windows",
-      "id": "Windows",
-      "count": 23
-    },
-    {
-      "name": "Linux",
-      "id": "Linux",
-      "count": 22
-    },
-    {
-      "name": "iOS",
-      "id": "iOS",
-      "count": 21
-    },
-    {
-      "name": "Android",
-      "id": "Android",
-      "count": 16
-    }
-  ],
-  "sizes": [
-    {
-      "name": "desktop",
-      "id": "desktop",
-      "count": 85
-    },
-    {
-      "name": "phone",
-      "id": "phone",
-      "count": 28
-    },
-    {
-      "name": "desktophd",
-      "id": "desktophd",
-      "count": 18
-    },
-    {
-      "name": "tablet",
-      "id": "tablet",
-      "count": 12
-    }
-  ],
-  "locations": [
-    {
-      "name": "Spain",
-      "id": "ES",
-      "count": 50
-    },
-    {
-      "name": "United States",
-      "id": "US",
-      "count": 35
-    },
-    {
-      "name": "Canada",
-      "id": "CA",
-      "count": 13
-    },
-    {
-      "name": "United Kingdom",
-      "id": "GB",
-      "count": 12
-    },
-    {
-      "name": "Germany",
-      "id": "DE",
-      "count": 9
-    },
-    {
-      "name": "Hong Kong",
-      "id": "HK",
-      "count": 7
-    },
-    {
-      "name": "Austria",
-      "id": "AT",
-      "count": 4
-    },
-    {
-      "name": "China",
-      "id": "CN",
-      "count": 2
-    },
-    {
-      "name": "Singapore",
-      "id": "SG",
-      "count": 2
-    },
-    {
-      "name": "Andorra",
-      "id": "AD",
-      "count": 1
-    },
-    {
-      "name": "United Arab Emirates",
-      "id": "AE",
-      "count": 1
-    },
-    {
-      "name": "Finland",
-      "id": "FI",
-      "count": 1
-    },
-    {
-      "name": "India",
-      "id": "IN",
-      "count": 1
-    },
-    {
-      "name": "Italy",
-      "id": "IT",
-      "count": 1
-    },
-    {
-      "name": "Liechtenstein",
-      "id": "LI",
-      "count": 1
-    }
-  ],
+  "browsers": [],
+  "systems": [],
+  "sizes": [],
+  "locations": [],
   "refs": [
     {
       "name": "Desconegut",
