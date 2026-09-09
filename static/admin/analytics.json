@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-08T23:50:49.024120Z",
+  "generated": "2026-09-09T03:15:40.040641Z",
   "period": {
-    "start": "2025-09-08",
-    "end": "2026-09-08"
+    "start": "2025-09-09",
+    "end": "2026-09-09"
   },
-  "total": 151,
+  "total": 152,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -178,6 +178,10 @@
     {
       "date": "2026-09-02",
       "count": 2
+    },
+    {
+      "date": "2026-09-08",
+      "count": 1
     }
   ],
   "hits": [
@@ -219,7 +223,7 @@
     },
     {
       "path": "/en/links",
-      "count": 2
+      "count": 3
     },
     {
       "path": "/editions/2025",
@@ -279,14 +283,14 @@
     }
   ],
   "by_lang": {
-    "en": 36,
+    "en": 37,
     "es": 1
   },
   "by_section": {
     "inici": 59,
     "404.html": 28,
     "editions": 48,
-    "links": 9,
+    "links": 10,
     "about": 6,
     "caja-knubovetz-caja-k": 1
   },
@@ -456,7 +460,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 14
+      "count": 15
     },
     {
       "name": "ig",
