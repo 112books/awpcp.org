@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-12T23:45:27.155163Z",
+  "generated": "2026-09-13T13:44:20.412148Z",
   "period": {
-    "start": "2025-09-12",
-    "end": "2026-09-12"
+    "start": "2025-09-13",
+    "end": "2026-09-13"
   },
-  "total": 162,
+  "total": 166,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -194,12 +194,20 @@
     {
       "date": "2026-09-11",
       "count": 7
+    },
+    {
+      "date": "2026-09-12",
+      "count": 3
+    },
+    {
+      "date": "2026-09-13",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 54
+      "count": 55
     },
     {
       "path": "/404.html",
@@ -211,23 +219,23 @@
     },
     {
       "path": "/en",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/links",
-      "count": 7
+      "count": 8
     },
     {
       "path": "/about",
       "count": 6
     },
     {
-      "path": "/editions/2026",
+      "path": "/editions",
       "count": 6
     },
     {
-      "path": "/editions",
-      "count": 5
+      "path": "/editions/2026",
+      "count": 6
     },
     {
       "path": "/en/editions/2026",
@@ -307,14 +315,14 @@
     }
   ],
   "by_lang": {
-    "en": 38,
+    "en": 39,
     "es": 2
   },
   "by_section": {
-    "inici": 62,
+    "inici": 64,
     "404.html": 30,
-    "editions": 49,
-    "links": 11,
+    "editions": 50,
+    "links": 12,
     "about": 7,
     "contact": 2,
     "caja-knubovetz-caja-k": 1
@@ -332,7 +340,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 126
+      "count": 128
     },
     {
       "name": "Safari",
@@ -359,7 +367,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 39
+      "count": 41
     },
     {
       "name": "Linux",
@@ -381,7 +389,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 100
+      "count": 102
     },
     {
       "name": "phone",
@@ -438,7 +446,7 @@
     {
       "name": "Japan",
       "id": "JP",
-      "count": 3
+      "count": 4
     },
     {
       "name": "Singapore",
@@ -480,7 +488,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 61
+      "count": 65
     },
     {
       "name": "Google",
