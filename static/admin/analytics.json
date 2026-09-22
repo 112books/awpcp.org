@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-21T23:01:21.327954Z",
+  "generated": "2026-09-22T03:28:30.287506Z",
   "period": {
-    "start": "2025-09-21",
-    "end": "2026-09-21"
+    "start": "2025-09-22",
+    "end": "2026-09-22"
   },
-  "total": 182,
+  "total": 183,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -221,7 +221,7 @@
     },
     {
       "date": "2026-09-21",
-      "count": 1
+      "count": 2
     }
   ],
   "hits": [
@@ -242,12 +242,12 @@
       "count": 10
     },
     {
-      "path": "/links",
+      "path": "/editions",
       "count": 9
     },
     {
-      "path": "/editions",
-      "count": 8
+      "path": "/links",
+      "count": 9
     },
     {
       "path": "/about",
@@ -345,7 +345,7 @@
   "by_section": {
     "inici": 68,
     "404.html": 32,
-    "editions": 56,
+    "editions": 57,
     "links": 13,
     "about": 8,
     "contact": 4,
@@ -512,7 +512,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 76
+      "count": 77
     },
     {
       "name": "Google",
