@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-30T20:33:33.687396Z",
+  "generated": "2026-10-01T00:21:45.478191Z",
   "period": {
-    "start": "2025-09-30",
-    "end": "2026-09-30"
+    "start": "2025-10-01",
+    "end": "2026-10-01"
   },
-  "total": 197,
+  "total": 205,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -246,16 +246,20 @@
     {
       "date": "2026-09-29",
       "count": 3
+    },
+    {
+      "date": "2026-09-30",
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 56
+      "count": 61
     },
     {
       "path": "/404.html",
-      "count": 35
+      "count": 38
     },
     {
       "path": "/en/editions/2025",
@@ -367,8 +371,8 @@
     "es": 4
   },
   "by_section": {
-    "inici": 70,
-    "404.html": 35,
+    "inici": 75,
+    "404.html": 38,
     "editions": 62,
     "links": 14,
     "about": 9,
@@ -536,12 +540,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 87
+      "count": 92
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 16
+      "count": 18
     },
     {
       "name": "ig",
@@ -566,6 +570,11 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
+      "count": 1
+    },
+    {
+      "name": "Yandex",
+      "id": "Yandex",
       "count": 1
     },
     {
