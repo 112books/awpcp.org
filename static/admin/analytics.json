@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-01T14:12:16.813784Z",
+  "generated": "2026-10-02T00:32:03.283020Z",
   "period": {
-    "start": "2025-10-01",
-    "end": "2026-10-01"
+    "start": "2025-10-02",
+    "end": "2026-10-02"
   },
-  "total": 205,
+  "total": 208,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -250,20 +250,24 @@
     {
       "date": "2026-09-30",
       "count": 8
+    },
+    {
+      "date": "2026-10-01",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 61
+      "count": 62
     },
     {
       "path": "/404.html",
-      "count": 38
+      "count": 39
     },
     {
       "path": "/en/editions/2025",
-      "count": 28
+      "count": 29
     },
     {
       "path": "/en",
@@ -367,13 +371,13 @@
     }
   ],
   "by_lang": {
-    "en": 51,
+    "en": 52,
     "es": 4
   },
   "by_section": {
-    "inici": 75,
-    "404.html": 38,
-    "editions": 62,
+    "inici": 76,
+    "404.html": 39,
+    "editions": 63,
     "links": 14,
     "about": 9,
     "contact": 6,
@@ -392,7 +396,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 168
+      "count": 169
     },
     {
       "name": "Safari",
@@ -414,7 +418,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 71
+      "count": 72
     },
     {
       "name": "macOS",
@@ -441,7 +445,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 142
+      "count": 143
     },
     {
       "name": "phone",
@@ -506,6 +510,11 @@
       "count": 5
     },
     {
+      "name": "South Korea",
+      "id": "KR",
+      "count": 3
+    },
+    {
       "name": "China",
       "id": "CN",
       "count": 2
@@ -529,18 +538,13 @@
       "name": "Italy",
       "id": "IT",
       "count": 2
-    },
-    {
-      "name": "South Korea",
-      "id": "KR",
-      "count": 2
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 92
+      "count": 94
     },
     {
       "name": "Google",
