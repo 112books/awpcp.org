@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-04T22:45:56.004045Z",
+  "generated": "2026-10-05T08:24:13.990602Z",
   "period": {
-    "start": "2025-10-04",
-    "end": "2026-10-04"
+    "start": "2025-10-05",
+    "end": "2026-10-05"
   },
-  "total": 209,
+  "total": 211,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -258,6 +258,14 @@
     {
       "date": "2026-10-03",
       "count": 1
+    },
+    {
+      "date": "2026-10-04",
+      "count": 1
+    },
+    {
+      "date": "2026-10-05",
+      "count": 1
     }
   ],
   "hits": [
@@ -283,7 +291,7 @@
     },
     {
       "path": "/links",
-      "count": 10
+      "count": 11
     },
     {
       "path": "/about",
@@ -292,6 +300,10 @@
     {
       "path": "/editions/2026",
       "count": 6
+    },
+    {
+      "path": "/en/contact",
+      "count": 4
     },
     {
       "path": "/en/editions/2026",
@@ -303,10 +315,6 @@
     },
     {
       "path": "/contact",
-      "count": 3
-    },
-    {
-      "path": "/en/contact",
       "count": 3
     },
     {
@@ -375,16 +383,16 @@
     }
   ],
   "by_lang": {
-    "en": 53,
+    "en": 54,
     "es": 4
   },
   "by_section": {
     "inici": 76,
     "404.html": 39,
     "editions": 64,
-    "links": 14,
+    "links": 15,
     "about": 9,
-    "contact": 6,
+    "contact": 7,
     "caja-knubovetz-caja-k": 1
   },
   "noticies_top": [],
@@ -400,7 +408,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 170
+      "count": 171
     },
     {
       "name": "Safari",
@@ -422,7 +430,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 73
+      "count": 74
     },
     {
       "name": "macOS",
@@ -449,7 +457,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 145
+      "count": 146
     },
     {
       "name": "phone",
@@ -471,7 +479,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 58
+      "count": 59
     },
     {
       "name": "Spain",
@@ -548,7 +556,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 94
+      "count": 96
     },
     {
       "name": "Google",
