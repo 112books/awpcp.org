@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-07T22:46:00.402831Z",
+  "generated": "2026-10-08T02:32:34.400842Z",
   "period": {
-    "start": "2025-10-07",
-    "end": "2026-10-07"
+    "start": "2025-10-08",
+    "end": "2026-10-08"
   },
-  "total": 218,
+  "total": 222,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -273,6 +273,10 @@
     },
     {
       "date": "2026-10-07",
+      "count": 4
+    },
+    {
+      "date": "2026-10-08",
       "count": 1
     }
   ],
@@ -283,18 +287,18 @@
     },
     {
       "path": "/404.html",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/en/editions/2025",
       "count": 30
     },
     {
-      "path": "/en",
-      "count": 12
+      "path": "/editions",
+      "count": 13
     },
     {
-      "path": "/editions",
+      "path": "/en",
       "count": 12
     },
     {
@@ -330,8 +334,16 @@
       "count": 3
     },
     {
+      "path": "/editions/2022",
+      "count": 2
+    },
+    {
       "path": "/editions/2025",
       "count": 2
+    },
+    {
+      "path": "/es/editions/2017",
+      "count": 1
     },
     {
       "path": "/en/legal/cookies",
@@ -382,10 +394,6 @@
       "count": 1
     },
     {
-      "path": "/editions/2022",
-      "count": 1
-    },
-    {
       "path": "/es/links",
       "count": 1
     },
@@ -396,12 +404,12 @@
   ],
   "by_lang": {
     "en": 56,
-    "es": 5
+    "es": 6
   },
   "by_section": {
     "inici": 78,
-    "404.html": 40,
-    "editions": 65,
+    "404.html": 41,
+    "editions": 68,
     "links": 16,
     "about": 10,
     "contact": 7,
@@ -421,7 +429,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 181
+      "count": 182
     },
     {
       "name": "Safari",
@@ -443,7 +451,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 83
+      "count": 84
     },
     {
       "name": "macOS",
@@ -480,7 +488,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 20
+      "count": 21
     },
     {
       "name": "desktophd",
@@ -569,7 +577,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 102
+      "count": 106
     },
     {
       "name": "Google",
