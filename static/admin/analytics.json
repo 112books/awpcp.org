@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-08T22:56:54.062314Z",
+  "generated": "2026-10-09T02:50:40.866178Z",
   "period": {
-    "start": "2025-10-08",
-    "end": "2026-10-08"
+    "start": "2025-10-09",
+    "end": "2026-10-09"
   },
-  "total": 222,
+  "total": 232,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -277,21 +277,25 @@
     },
     {
       "date": "2026-10-08",
-      "count": 1
+      "count": 9
+    },
+    {
+      "date": "2026-10-09",
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 62
+      "count": 65
     },
     {
       "path": "/404.html",
-      "count": 41
+      "count": 44
     },
     {
       "path": "/en/editions/2025",
-      "count": 30
+      "count": 31
     },
     {
       "path": "/editions",
@@ -318,6 +322,10 @@
       "count": 4
     },
     {
+      "path": "/contact",
+      "count": 4
+    },
+    {
       "path": "/en/contact",
       "count": 4
     },
@@ -326,12 +334,16 @@
       "count": 4
     },
     {
-      "path": "/contact",
+      "path": "/en/links",
       "count": 3
     },
     {
-      "path": "/en/links",
-      "count": 3
+      "path": "/editions/2020",
+      "count": 2
+    },
+    {
+      "path": "/editions/2021",
+      "count": 2
     },
     {
       "path": "/editions/2022",
@@ -386,14 +398,6 @@
       "count": 1
     },
     {
-      "path": "/editions/2020",
-      "count": 1
-    },
-    {
-      "path": "/editions/2021",
-      "count": 1
-    },
-    {
       "path": "/es/links",
       "count": 1
     },
@@ -403,16 +407,16 @@
     }
   ],
   "by_lang": {
-    "en": 56,
+    "en": 57,
     "es": 6
   },
   "by_section": {
-    "inici": 78,
-    "404.html": 41,
-    "editions": 68,
+    "inici": 81,
+    "404.html": 44,
+    "editions": 71,
     "links": 16,
     "about": 10,
-    "contact": 7,
+    "contact": 8,
     "legal": 1,
     "caja-knubovetz-caja-k": 1
   },
@@ -429,7 +433,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 190
+      "count": 192
     },
     {
       "name": "Safari",
@@ -451,7 +455,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 91
+      "count": 93
     },
     {
       "name": "macOS",
@@ -488,7 +492,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 25
+      "count": 27
     },
     {
       "name": "desktophd",
@@ -553,6 +557,11 @@
       "count": 3
     },
     {
+      "name": "Brazil",
+      "id": "BR",
+      "count": 2
+    },
+    {
       "name": "Denmark",
       "id": "DK",
       "count": 2
@@ -566,18 +575,13 @@
       "name": "India",
       "id": "IN",
       "count": 2
-    },
-    {
-      "name": "Italy",
-      "id": "IT",
-      "count": 2
     }
   ],
   "refs": [
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 106
+      "count": 115
     },
     {
       "name": "Google",
