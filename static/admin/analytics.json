@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16T05:28:22.556590Z",
+  "generated": "2026-10-16T10:46:03.556507Z",
   "period": {
     "start": "2025-10-16",
     "end": "2026-10-16"
@@ -498,7 +498,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 34
+      "count": 35
     },
     {
       "name": "Desconegut",
@@ -520,7 +520,7 @@
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 67
+      "count": 68
     },
     {
       "name": "Linux",
@@ -542,7 +542,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 176
+      "count": 177
     },
     {
       "name": "tablet",
