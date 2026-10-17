@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T22:33:08.462629Z",
+  "generated": "2026-10-17T06:35:38.643713Z",
   "period": {
-    "start": "2025-10-16",
-    "end": "2026-10-16"
+    "start": "2025-10-17",
+    "end": "2026-10-17"
   },
-  "total": 259,
+  "total": 262,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -306,6 +306,14 @@
     {
       "date": "2026-10-15",
       "count": 3
+    },
+    {
+      "date": "2026-10-16",
+      "count": 2
+    },
+    {
+      "date": "2026-10-17",
+      "count": 1
     }
   ],
   "hits": [
@@ -315,7 +323,7 @@
     },
     {
       "path": "/404.html",
-      "count": 46
+      "count": 48
     },
     {
       "path": "/en/editions/2025",
@@ -384,6 +392,10 @@
     {
       "path": "/editions/2025",
       "count": 2
+    },
+    {
+      "path": "/en/xavi-bassols",
+      "count": 1
     },
     {
       "path": "/es/editions/2019",
@@ -463,16 +475,17 @@
     }
   ],
   "by_lang": {
-    "en": 68,
+    "en": 69,
     "es": 10
   },
   "by_section": {
     "inici": 85,
-    "404.html": 46,
+    "404.html": 48,
     "editions": 80,
     "links": 19,
     "about": 12,
     "contact": 10,
+    "xavi-bassols": 1,
     "joan-linux-mart%C3%ADnez": 1,
     "caja-knubovetz-caja-k": 2,
     "holga-120-wpc": 1,
@@ -493,12 +506,12 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 219
+      "count": 221
     },
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 35
+      "count": 36
     },
     {
       "name": "Desconegut",
@@ -515,7 +528,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 119
+      "count": 121
     },
     {
       "name": "macOS",
@@ -530,7 +543,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Android",
@@ -542,7 +555,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 177
+      "count": 179
     },
     {
       "name": "tablet",
@@ -552,7 +565,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 30
+      "count": 31
     },
     {
       "name": "desktophd",
@@ -564,12 +577,12 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 67
+      "count": 69
     },
     {
       "name": "Spain",
       "id": "ES",
-      "count": 55
+      "count": 56
     },
     {
       "name": "Singapore",
@@ -641,12 +654,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 138
+      "count": 140
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 20
+      "count": 21
     },
     {
       "name": "ig",
