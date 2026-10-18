@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-17T23:45:11.200071Z",
+  "generated": "2026-10-18T08:33:45.599121Z",
   "period": {
-    "start": "2025-10-17",
-    "end": "2026-10-17"
+    "start": "2025-10-18",
+    "end": "2026-10-18"
   },
-  "total": 262,
+  "total": 266,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -313,6 +313,10 @@
     },
     {
       "date": "2026-10-17",
+      "count": 4
+    },
+    {
+      "date": "2026-10-18",
       "count": 1
     }
   ],
@@ -323,11 +327,11 @@
     },
     {
       "path": "/404.html",
-      "count": 48
+      "count": 49
     },
     {
       "path": "/en/editions/2025",
-      "count": 34
+      "count": 35
     },
     {
       "path": "/editions",
@@ -335,7 +339,7 @@
     },
     {
       "path": "/links",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/en",
@@ -344,6 +348,10 @@
     {
       "path": "/about",
       "count": 10
+    },
+    {
+      "path": "/en/contact",
+      "count": 6
     },
     {
       "path": "/editions/2026",
@@ -355,10 +363,6 @@
     },
     {
       "path": "/contact",
-      "count": 5
-    },
-    {
-      "path": "/en/contact",
       "count": 5
     },
     {
@@ -475,16 +479,16 @@
     }
   ],
   "by_lang": {
-    "en": 69,
+    "en": 71,
     "es": 10
   },
   "by_section": {
     "inici": 85,
-    "404.html": 48,
-    "editions": 80,
-    "links": 19,
+    "404.html": 49,
+    "editions": 81,
+    "links": 20,
     "about": 12,
-    "contact": 10,
+    "contact": 11,
     "xavi-bassols": 1,
     "joan-linux-mart%C3%ADnez": 1,
     "caja-knubovetz-caja-k": 2,
@@ -506,7 +510,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 222
+      "count": 223
     },
     {
       "name": "Safari",
@@ -528,7 +532,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 122
+      "count": 123
     },
     {
       "name": "macOS",
@@ -555,7 +559,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 180
+      "count": 181
     },
     {
       "name": "tablet",
@@ -587,7 +591,7 @@
     {
       "name": "Singapore",
       "id": "SG",
-      "count": 27
+      "count": 28
     },
     {
       "name": "United Kingdom",
@@ -654,7 +658,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 140
+      "count": 143
     },
     {
       "name": "Google",
