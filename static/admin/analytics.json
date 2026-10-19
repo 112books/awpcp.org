@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-18T22:13:34.897472Z",
+  "generated": "2026-10-19T00:49:35.596821Z",
   "period": {
-    "start": "2025-10-18",
-    "end": "2026-10-18"
+    "start": "2025-10-19",
+    "end": "2026-10-19"
   },
-  "total": 266,
+  "total": 269,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -317,7 +317,7 @@
     },
     {
       "date": "2026-10-18",
-      "count": 1
+      "count": 4
     }
   ],
   "hits": [
@@ -343,11 +343,15 @@
     },
     {
       "path": "/en",
-      "count": 13
+      "count": 14
     },
     {
       "path": "/about",
-      "count": 10
+      "count": 11
+    },
+    {
+      "path": "/es",
+      "count": 6
     },
     {
       "path": "/en/contact",
@@ -356,10 +360,6 @@
     {
       "path": "/editions/2026",
       "count": 6
-    },
-    {
-      "path": "/es",
-      "count": 5
     },
     {
       "path": "/contact",
@@ -479,15 +479,15 @@
     }
   ],
   "by_lang": {
-    "en": 71,
-    "es": 10
+    "en": 72,
+    "es": 11
   },
   "by_section": {
-    "inici": 85,
+    "inici": 87,
     "404.html": 49,
     "editions": 81,
     "links": 20,
-    "about": 12,
+    "about": 13,
     "contact": 11,
     "xavi-bassols": 1,
     "joan-linux-mart%C3%ADnez": 1,
@@ -658,7 +658,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 143
+      "count": 146
     },
     {
       "name": "Google",
