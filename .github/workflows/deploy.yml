@@ -4,6 +4,10 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  # El token del fetch no pot encadenar el deploy; l'executem en acabar.
+  workflow_run:
+    workflows: ["Fetch GoatCounter Analytics"]
+    types: [completed]
 
 permissions:
   contents: read
