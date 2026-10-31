@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-31T00:24:00.020303Z",
+  "generated": "2026-10-31T06:39:11.959799Z",
   "period": {
     "start": "2025-10-31",
     "end": "2026-10-31"
   },
-  "total": 289,
+  "total": 290,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -361,7 +361,7 @@
     },
     {
       "date": "2026-10-31",
-      "count": 1
+      "count": 2
     }
   ],
   "hits": [
@@ -387,7 +387,7 @@
     },
     {
       "path": "/en",
-      "count": 14
+      "count": 15
     },
     {
       "path": "/about",
@@ -535,11 +535,11 @@
     }
   ],
   "by_lang": {
-    "en": 76,
+    "en": 77,
     "es": 13
   },
   "by_section": {
-    "inici": 89,
+    "inici": 90,
     "404.html": 53,
     "editions": 88,
     "links": 23,
@@ -726,7 +726,8 @@
       "2026-09-26": 1,
       "2026-10-06": 1,
       "2026-10-11": 1,
-      "2026-10-18": 1
+      "2026-10-18": 1,
+      "2026-10-31": 1
     },
     "/about": {
       "2026-06-10": 1,
@@ -928,7 +929,8 @@
       "2026-10-15": 1,
       "2026-10-18": 2,
       "2026-10-21": 1,
-      "2026-10-28": 1
+      "2026-10-28": 1,
+      "2026-10-31": 1
     },
     "editions": {
       "2026-06-10": 2,
@@ -1101,7 +1103,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 246
+      "count": 247
     },
     {
       "name": "Safari",
@@ -1123,7 +1125,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 146
+      "count": 147
     },
     {
       "name": "macOS",
@@ -1150,7 +1152,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 203
+      "count": 204
     },
     {
       "name": "tablet",
@@ -1182,7 +1184,7 @@
     {
       "name": "Singapore",
       "id": "SG",
-      "count": 33
+      "count": 34
     },
     {
       "name": "United Kingdom",
@@ -1249,7 +1251,7 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 162
+      "count": 163
     },
     {
       "name": "Google",
