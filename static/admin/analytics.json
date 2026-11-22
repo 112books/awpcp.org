@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-21T19:56:00.562958Z",
+  "generated": "2026-11-22T00:07:49.082074Z",
   "period": {
-    "start": "2025-11-21",
-    "end": "2026-11-21"
+    "start": "2025-11-22",
+    "end": "2026-11-22"
   },
-  "total": 330,
+  "total": 331,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -430,6 +430,10 @@
     {
       "date": "2026-11-19",
       "count": 1
+    },
+    {
+      "date": "2026-11-21",
+      "count": 1
     }
   ],
   "hits": [
@@ -512,6 +516,10 @@
     {
       "path": "/editions/2025",
       "count": 2
+    },
+    {
+      "path": "/6-estenopos-y-ojo-de-lata",
+      "count": 1
     },
     {
       "path": "/editions/2020/cameras",
@@ -614,6 +622,7 @@
     "about": 16,
     "contact": 18,
     "debora-mart%C3%ADnez-s%C3%A1nchez": 2,
+    "6-estenopos-y-ojo-de-lata": 1,
     "diy": 1,
     "xavi-bassols": 1,
     "joan-linux-mart%C3%ADnez": 1,
@@ -919,6 +928,9 @@
       "2026-06-11": 1,
       "2026-07-01": 1
     },
+    "/6-estenopos-y-ojo-de-lata": {
+      "2026-11-21": 1
+    },
     "/editions/2020/cameras": {
       "2026-10-21": 1
     },
@@ -1220,6 +1232,9 @@
       "2026-06-20": 1,
       "2026-10-11": 1
     },
+    "6-estenopos-y-ojo-de-lata": {
+      "2026-11-21": 1
+    },
     "diy": {
       "2026-10-21": 1
     },
@@ -1396,7 +1411,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 25
+      "count": 26
     },
     {
       "name": "ig",
