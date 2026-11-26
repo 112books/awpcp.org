@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-25T13:54:05.449803Z",
+  "generated": "2026-11-26T04:44:41.503836Z",
   "period": {
-    "start": "2025-11-25",
-    "end": "2026-11-25"
+    "start": "2025-11-26",
+    "end": "2026-11-26"
   },
-  "total": 339,
+  "total": 344,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -446,6 +446,10 @@
     {
       "date": "2026-11-24",
       "count": 2
+    },
+    {
+      "date": "2026-11-25",
+      "count": 5
     }
   ],
   "hits": [
@@ -463,7 +467,7 @@
     },
     {
       "path": "/editions",
-      "count": 24
+      "count": 25
     },
     {
       "path": "/links",
@@ -528,6 +532,22 @@
     {
       "path": "/editions/2025",
       "count": 2
+    },
+    {
+      "path": "/es/editions/2015",
+      "count": 1
+    },
+    {
+      "path": "/es/editions/2025",
+      "count": 1
+    },
+    {
+      "path": "/es/editions",
+      "count": 1
+    },
+    {
+      "path": "/es/about",
+      "count": 1
     },
     {
       "path": "/6-estenopos-y-ojo-de-lata",
@@ -624,14 +644,14 @@
   ],
   "by_lang": {
     "en": 86,
-    "es": 18
+    "es": 22
   },
   "by_section": {
     "inici": 104,
     "404.html": 64,
-    "editions": 97,
+    "editions": 101,
     "links": 28,
-    "about": 16,
+    "about": 17,
     "contact": 19,
     "debora-mart%C3%ADnez-s%C3%A1nchez": 2,
     "6-estenopos-y-ojo-de-lata": 1,
@@ -806,7 +826,8 @@
       "2026-11-08": 1,
       "2026-11-09": 1,
       "2026-11-15": 1,
-      "2026-11-16": 1
+      "2026-11-16": 1,
+      "2026-11-25": 1
     },
     "/links": {
       "2026-06-07": 1,
@@ -947,6 +968,18 @@
     "/editions/2025": {
       "2026-06-11": 1,
       "2026-07-01": 1
+    },
+    "/es/editions/2015": {
+      "2026-11-25": 1
+    },
+    "/es/editions/2025": {
+      "2026-11-25": 1
+    },
+    "/es/editions": {
+      "2026-11-25": 1
+    },
+    "/es/about": {
+      "2026-11-25": 1
     },
     "/6-estenopos-y-ojo-de-lata": {
       "2026-11-21": 1
@@ -1137,7 +1170,8 @@
       "2026-11-11": 1,
       "2026-11-15": 1,
       "2026-11-16": 1,
-      "2026-11-17": 1
+      "2026-11-17": 1,
+      "2026-11-25": 4
     },
     "404.html": {
       "2026-06-09": 1,
@@ -1249,7 +1283,8 @@
       "2026-10-18": 1,
       "2026-10-31": 1,
       "2026-11-07": 1,
-      "2026-11-14": 1
+      "2026-11-14": 1,
+      "2026-11-25": 1
     },
     "debora-mart%C3%ADnez-s%C3%A1nchez": {
       "2026-10-10": 1,
@@ -1285,7 +1320,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 300
+      "count": 301
     },
     {
       "name": "Safari",
@@ -1307,7 +1342,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 191
+      "count": 192
     },
     {
       "name": "macOS",
@@ -1334,7 +1369,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 256
+      "count": 257
     },
     {
       "name": "tablet",
@@ -1371,7 +1406,7 @@
     {
       "name": "Germany",
       "id": "DE",
-      "count": 19
+      "count": 20
     },
     {
       "name": "United Kingdom",
@@ -1433,12 +1468,12 @@
     {
       "name": "Desconegut",
       "id": "Desconegut",
-      "count": 203
+      "count": 204
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 26
+      "count": 27
     },
     {
       "name": "ig",
